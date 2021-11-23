@@ -1,0 +1,10 @@
+
+.normal-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.normal-nav a {
+    font-size: .8rem;
+    margin: 0 .2rem;
+}

@@ -1,0 +1,23 @@
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}
+.icons {
+    color: var(--light);
+    margin: 6px;
+    font-size: 1.6rem;
+}
+.icons:hover {
+    transform: rotate(360deg);
+    transition: all .8s;    
+}
+.social-icons i {
+    color: var(--light);
+}
+.social-icons i:hover {
+    color: var(--secondary);    
+}
+.icons i:active {
+    color: var(--light);
+}
+

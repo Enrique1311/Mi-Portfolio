@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer-container {
+    background: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 .5rem;
+    box-sizing: border-box;
+}
+.footer {
+    background: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 3rem 1rem;
+    color: rgb(255, 255, 255);
+}
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.footer-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 14rem;
+    max-height: 230px;
+    max-width: 300px;
+    background-image: url("../../assets/footer-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+    box-shadow: inset 0 0 85px 0 var(--primary);
+}
+.whatsapp-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contact-logo {
+    font-size: 1.5rem;
+    margin-right: .4rem;
+    color: var(--secondary);
+}
+.footer img {
+    width: 100px;
+    height: 30px;
+}
+.footer p {
+    font-size: .7rem;
+}
+.comment {
+    padding: 2rem;
+    max-width: 400px;
+    text-align: center;
+}
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    font-size: .8rem;
+}
+@media screen and (min-width: 768px) {
+    .footer-content {
+        flex-direction: row-reverse;
+        padding-top: 0;
+    }
+    .footer-social {
+        gap: 2rem;
+    }
+    .footer-photo {
+        height: 7rem;
+        width: 10rem;
+        max-height: 200px;
+        max-width: 250px;
+    }
+}
+@media screen and (min-width: 950px) {
+    .footer-photo {
+        height: 10rem;
+        width: 15rem;
+        max-height: 250px;
+        max-width: 350px;
+    }
+}
+
+
