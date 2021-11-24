@@ -15,14 +15,6 @@
     top: 0;
     z-index: 10;
 }
-/*@keyframes navbarEfect {
-    0% {
-        transform: translateY(0px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-}*/
 .logo a {
     color: var(--secondary);
     display: flex;
