@@ -1,7 +1,7 @@
 import Typical from "react-typical";
-import MyButton from "../utilities/Button/MyButton";
 import "./ProfileDetails.css";
 import SocialNetworks from "../utilities/SocialNetworks/SocialNetworks";
+import HireResumeButtons from "../utilities/HireResumeButtons/HireResumeButtons";
 
 const ProfileDetails = () => {
     return (
@@ -39,22 +39,7 @@ const ProfileDetails = () => {
                     </p>
                 </span>              
             </div>
-            <div className="profile-buttons">
-                <div className="profile-btn">
-                    <a href="/#contact-me">
-                        <MyButton>
-                            Hire Me
-                        </MyButton> 
-                    </a>
-                </div>
-                <div className="profile-btn">
-                    <a href="cv.pdf" download="EJS cv.pdf">
-                        <MyButton>
-                            Get Resume
-                        </MyButton>
-                    </a>    
-                </div>
-            </div>
+            <HireResumeButtons/>
         </div>
     )
 }

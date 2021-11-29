@@ -1,4 +1,3 @@
-import UpButton from "../utilities/UpButton/UpButton";
 import "./Profile.css";
 import ProfileDetails from "./ProfileDetails";
 

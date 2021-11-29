@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .profile-container {
     background-color: var(--primary);
     display: flex;
@@ -12,7 +7,6 @@
     align-items: center;
     text-align: center;
     color: var(--light);
-    padding: 4rem 1rem;
     padding-top: 75px;
     gap: 1rem;
     width: 100%;
@@ -50,11 +44,16 @@
     .profile-container {
         flex-direction: row-reverse;
         gap: 5rem;
+        padding-top: 2rem;
     }
+    .profile-picture {
+        margin-bottom: 4rem;
+    }  
 }
 @media screen and (min-width: 950px) {
     .profile-container {
         gap: 10rem;
+        padding-top: 4rem;
     }
     .profile-picture {
         width: 16rem;

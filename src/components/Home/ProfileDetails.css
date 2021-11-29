@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin: 3rem 0;
+    margin: 3rem 0 6rem 0;
     gap: .6rem;
     width: 16rem;
 }
@@ -35,13 +35,7 @@
 .profile-extra p {
     display: block;
 }
-.profile-buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 16rem;
-}
+
 @media screen and (min-width: 480px) {
     .profile-details-name {
         font-size: 1.4rem;
@@ -54,10 +48,6 @@
         font-size: 1.3rem;
         color: var(--light);
         text-shadow: 2px 2px 5px var(--light);
-    }
-    .profile-buttons {
-        flex-direction: row;
-        width: 20rem;
     }
 }
 @media screen and (min-width: 950px) {

@@ -20,15 +20,18 @@ const Footer = () => {
                 my contacts. Also you can send me
                 a consult using this form. Thanks!
               </p> 
-            </div>           
-            <div className="whatsapp-email"> 
-              <FaWhatsapp className="contact-logo"/>
-              <p>(54) 11 4914-4055</p>
-            </div>
-            <div className="whatsapp-email">
-              <AiFillMail className="contact-logo"/>
-              <p>enriquespinelli.coder@gmail.com</p>
-            </div>
+            </div> 
+            <div className="whatsapp-email-container">
+              <div className="whatsapp-email"> 
+                <FaWhatsapp className="contact-logo"/>
+                <p>(54) 11 4914-4055</p>
+              </div>
+              <div className="whatsapp-email">
+                <AiFillMail className="contact-logo"/>
+                <p>enriquespinelli.coder@gmail.com</p>
+              </div>
+            </div>         
+ 
           </div>          
           <div className="footer-social">
             <SocialNetworks/>
@@ -36,7 +39,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
       </div> 
       <p className="copyright">All Copyright reserved.</p>
     </div>

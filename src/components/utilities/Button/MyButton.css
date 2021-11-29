@@ -6,7 +6,7 @@
     margin: .4rem;
     color: var(--light-grey);
     font-size: .8rem;
-
+    cursor: pointer;
 }
 .my-button:hover {
     transition: .1s;
@@ -17,6 +17,7 @@
 .my-button:active {
     background: var(--secondary);
 }
+
 
 
 
