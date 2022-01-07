@@ -21,15 +21,24 @@ const AboutMe = () => {
               pose to me, creating Web pages with innovative, 
               agile, responsive and modern designs that stand out visually.
               I love originality !!!
-            </p>
+            </p>            
             <p>
               My work aims to:</p>
-            <p>Perform all the required and necessary functions 
-              for companies to achieve their most ambitious aspirations.
+            <p>
+            <ul>
+              <li>
+                Perform all the required and necessary functions 
+                for companies to achieve their most ambitious aspirations.
+              </li>
+              <li>
+                That users have a pleasant, different and intuitive 
+                experience.              
+              </li>
+            </ul>
+
             </p>
             <p>
-              That users have a pleasant, different and intuitive 
-              experience.            
+           
             </p>
           </div>
 

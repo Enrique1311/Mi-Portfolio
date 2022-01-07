@@ -22,7 +22,7 @@
 .logo a h1:hover {
     text-shadow: 0 0 10px var(--light);
     color: var(--light);
-    transition: .5s;
+    transition: all .5s;
 }
 .normal-nav {
     display: none;

@@ -1,7 +1,11 @@
 .subtitle-container {
+    width: 100%;
     font-size: 1rem;
     margin-bottom: 1rem;
     margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .subtitle h3 {
     border-bottom: 5px solid var(--secondary);

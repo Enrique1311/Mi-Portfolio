@@ -8,7 +8,6 @@
     width: 16rem;
 }
 .profile-details-name {
-    font-size: 1.2rem;
     width: 16rem;
 }
 .name-text {
@@ -22,7 +21,7 @@
     width: 16rem;  
 }
 .profile-details-role h1{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 16rem;
     color: var(--light);
     text-shadow: 2px 2px 5px var(--light);
@@ -35,7 +34,6 @@
 .profile-extra p {
     display: block;
 }
-
 @media screen and (min-width: 480px) {
     .profile-details-name {
         font-size: 1.4rem;
@@ -45,13 +43,25 @@
         width: 20rem;
     }
     .profile-details-role h1{
-        font-size: 1.3rem;
-        color: var(--light);
-        text-shadow: 2px 2px 5px var(--light);
+        font-size: 1.6rem;
     }
 }
 @media screen and (min-width: 950px) {
     .profile-details {
         gap: 2rem;
+        width: 24rem;
+    }
+    .profile-details-name {
+        width: 24rem;
+    }
+    .profile-details-role {
+        width: 24rem;
+    }
+    .profile-extra {
+        width: 24rem;
+    }
+    .profile-details-role h1{
+        font-size: 1.8rem;
+        width: 24rem;
     }
 }

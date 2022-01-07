@@ -1,5 +1,5 @@
-import MyButton from "../utilities/Button/MyButton"
-import "./MyForm.css"
+import MyButton from "../utilities/Button/MyButton";
+import "./MyForm.css";
 
 const MyForm = () => {
   return (

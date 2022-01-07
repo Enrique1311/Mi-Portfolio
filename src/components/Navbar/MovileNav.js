@@ -9,15 +9,14 @@ const MovileNav = () => {
   const [openMenu, setOpenMenu ] = useState(false);
   const menuIcon = <CgMenuBoxed className="menu-icon" onClick={() => setOpenMenu(!openMenu)}/>
   const closeIcon = <CgCloseR className="menu-icon" onClick={() => setOpenMenu(!openMenu)}/>
-
-  const closeMovileNav = () => setOpenMenu(false)
+  const closeMovileNav = () => setOpenMenu(false);
 
   return (
-    <nav className="movile-nav">
+    <nav className="movile-nav close-movile-nav">
       {openMenu ? closeIcon : menuIcon}
       {openMenu && <NavLinks isMovileNav={true} closeMovileNav={closeMovileNav}/>}
     </nav>
   )
 }
 
-export default MovileNav
+export default MovileNav;

@@ -4,7 +4,7 @@
     background: var(--primary);
     border: 2px solid var(--light);
     margin: .4rem;
-    color: var(--light-grey);
+    color: var(--light);
     font-size: .8rem;
     cursor: pointer;
 }
@@ -16,6 +16,7 @@
 }
 .my-button:active {
     background: var(--secondary);
+    color: var(--primary);
 }
 
 

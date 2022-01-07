@@ -9,7 +9,7 @@ const HireResumeButtons = () => {
                 Hire Me
             </MyButton> 
         </a>
-        <a href="cv.pdf" download="EJS cv.pdf">
+        <a href="../../../assets/CV-Enrique-Spinelli.pdf" download="CV-Enrique-Spinelli.pdf">
             <MyButton>
                 Get Resume
             </MyButton>

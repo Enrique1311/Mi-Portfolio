@@ -31,10 +31,29 @@
     align-items: center;
     height: 90%;
     width: 90%;
-    background-image: url("../../assets/Home/comp-img.jpg");
+    background-image: url("../../assets/home-img.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    animation: pictureEfect 5s infinite;
+    box-shadow: 0 0 20px 0 white;
+}
+@keyframes pictureEfect {
+    0% {
+        opacity: .6;
+        transform: scale(1);
+        box-shadow: 0 0 5px 0 var(--light);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+        box-shadow: 0 0 20px 0 var(--light);
+    }
+    100% {
+        opacity: .6;
+        transform: scale(1);
+        box-shadow: 0 0 5px 0 var(--light);
+    }
 }
 .profile-picture-background:hover {
     transform: scale(1.10);

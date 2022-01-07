@@ -6,14 +6,16 @@
     text-decoration: none;
     padding: 5px 15px 0px 15px;
     margin: .5rem;
+    position: relative;
+}
+.nav-links a:active {
+    background: var(--secondary);
+    color: var(--dark-grey);
 }
 .nav-links a:hover {
     border-bottom: 3px solid var(--secondary);
     border-left: 1px solid var(--secondary);
     border-radius: 7px;
-    padding: 5px 15px 5px 14px;    
-}
-.nav-links a:active {
-    color: var(--secondary);
-
+    padding: 5px 15px 5px 14px;  
+    color: var(--light-grey);
 }
