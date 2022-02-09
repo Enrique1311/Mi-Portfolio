@@ -3,8 +3,10 @@ import img1 from "../../assets/christopher-gower-m_HRfLhgABo-unsplash.jpg";
 import img2 from "../../assets/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg";
 import img3 from "../../assets/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg";
 import img4 from "../../assets/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg"
+import MyButton from "../utilities/Button/MyButton";
 
 const ProyectsCards = () => {
+
     const proyectsData = [
         {   
             id: "0",
@@ -41,7 +43,7 @@ const ProyectsCards = () => {
             {proyectsData.map((data) => {
                 return (
                     <div className="proyects-cards" key={data.id} data={data}>
-                        <div className="card">
+                        <div className="card" data-aos="zoom-in">
                             <img src={data.img} alt="" className="card-image"/>
                             <div className="card-details">
                                 <h4 className="card-title">
@@ -50,9 +52,9 @@ const ProyectsCards = () => {
                                 <p className="card-description">
                                     {data.description}
                                 </p>                                
-                                {/*<MyButton>
-                                    See
-                                </MyButton>*/}
+                                <MyButton>
+                                    Ver más...
+                                </MyButton>
                             </div>
                         </div>  
                     </div>

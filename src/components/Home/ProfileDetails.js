@@ -10,7 +10,7 @@ const ProfileDetails = () => {
             <div className="profile-details-name">
                 <span className="primary-text">
                     {" "}
-                    Hello! I am <span className="name-text">Enrique J. Spinelli</span>
+                    ¡Hola! Soy <span className="name-text">Enrique J. Spinelli</span>
                 </span>
             </div>
             <div className="profile-details-role">
@@ -21,21 +21,23 @@ const ProfileDetails = () => {
                         <Typical 
                         loop={Infinity}
                         steps={[
-                            "Full Stack Developer",
+                            "Full Stack",
                             1000,
-                            "Html full",
+                            "Html",
                             1000,
-                            "Css full",
+                            "Css",
                             1000,
-                            "Javascript full",
+                            "Javascript",
                             1000,
-                            "React Js full",
+                            "React Js",
+                            1000,
+                            "Next Js",
                             1000,
                         ]}
                     />  
                     </h1>
                     <p className="profile-extra">
-                        Front and back end applications developer...
+                        Desarrollador de aplicaciones web Frontend y Backend.
                     </p>
                 </span>              
             </div>

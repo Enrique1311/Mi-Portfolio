@@ -4,19 +4,19 @@ const NavLinks = (props) => {
   return (
     <ul className="nav-links">
       <li onClick={() => props.isMovileNav && props.closeMovileNav()}>
-        <a href="/#home" className="selected">Home</a>
+        <a href="/#home" className="selected">Inicio</a>
       </li>
       <li onClick={() => props.isMovileNav && props.closeMovileNav()}>
-        <a href="/#about-me" className="selected">About Me</a>
+        <a href="/#about-me" className="selected">Sobre mí</a>
       </li>          
       <li onClick={() => props.isMovileNav && props.closeMovileNav()}>
-        <a href="/#resume" className="selected">Resume</a>
+        <a href="/#resume" className="selected">Resumen</a>
       </li>  
       <li onClick={() => props.isMovileNav && props.closeMovileNav()}>
-        <a href="/#proyects" className="selected">Proyects</a>
+        <a href="/#proyects" className="selected">Proyectos</a>
       </li>        
       <li onClick={() => props.isMovileNav && props.closeMovileNav()} >
-        <a href="/#contact-me" className="selected">Contact Me</a>
+        <a href="/#contact-me" className="selected">Contáctame</a>
       </li>          
     </ul>
   )

@@ -1,5 +1,5 @@
 .my-button {
-    padding: .2rem 1.4rem;
+    padding: .3rem 1.3rem;
     border-radius: 25px;
     background: var(--primary);
     border: 2px solid var(--light);
@@ -13,6 +13,7 @@
     color: var(--secondary);
     border: 2px solid var(--secondary);
     box-shadow: 0 0 10px var(--secondary);
+    transform: scale(1.1);
 }
 .my-button:active {
     background: var(--secondary);

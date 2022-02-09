@@ -11,8 +11,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 12rem;
-    height: 14rem;
+    width: 14rem;
+    height: 18rem;
     background-color: var(--primary);
     overflow: hidden;
     text-align: center;
@@ -44,17 +44,18 @@
     width: 100%;
     overflow: hidden;
     text-align: center;
+    margin-bottom: .5rem;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 880px) {
     .card {
         width: 16rem;
-        height: 18rem;
+        height: 20rem;
     }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     .card {
        width: 12rem;
-       height: 14rem;
+       height: 18rem;
     }
 
 }

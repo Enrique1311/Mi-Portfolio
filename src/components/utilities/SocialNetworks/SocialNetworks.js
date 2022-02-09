@@ -3,13 +3,15 @@ import {
     FaInstagramSquare, 
     FaGithubSquare, 
     FaYoutubeSquare, 
-    FaLinkedin
+    FaLinkedin,
+    FaPinterestSquare
   } from "react-icons/fa";
   import "./SocialNetworks.css";
 
 const SocialNetworks = () => {
+
   return (
-    <div className="social-icons">
+    <div className="social-icons" data-aos="zoom-in">
       <div className="icons">
         <a href="#">
           <i className="facebook"><FaFacebookSquare/></i>
@@ -27,11 +29,11 @@ const SocialNetworks = () => {
       </div>
       <div className="icons">
         <a href="#">
-          <i className="youtube"><FaYoutubeSquare/></i>
+          <i className="pinterest"><FaPinterestSquare/></i>
         </a>        
       </div>
       <div className="icons">
-        <a href="#">
+        <a href="https://linkedin.com/in/enrique-spinelli">
           <i className="linkedin"><FaLinkedin/></i>
         </a>
       </div>
