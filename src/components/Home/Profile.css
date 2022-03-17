@@ -35,7 +35,7 @@
     background-position: center;
     border-radius: 50%;
     animation: pictureEfect 5s infinite;
-    box-shadow: 0 0 20px 0 white;
+    box-shadow: 0 0 20px 0 var(--light);
 }
 @keyframes pictureEfect {
     0% {

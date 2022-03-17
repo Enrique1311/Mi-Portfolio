@@ -37,7 +37,7 @@ const Resume = () => {
       content: "Me encanta escuchar música e ir al gimnasio.",
       content2: "Viajar y conocer lugares nuevos.",
       content3: "Hacer páginas web es otra actividad que disfruto mucho.",
-      content4: "¡Estar con mi esposa mis dos hijos es lo que más me llena el alma!",
+      content4: "¡Estar con mi esposa y mis dos hijos es lo que más me llena el alma!",
       open: false
     }
   ]);

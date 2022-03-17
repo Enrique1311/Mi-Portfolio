@@ -24,10 +24,6 @@
     border-radius: 15px;    
     box-shadow: 0 0 10px 0 var(--light-grey); 
 }
-.about-me-photo:hover {
-    transform: scale(1.1);
-    transition: .5s;
-}
 .about-me-details {
     height: 50%;
     width: 100%;
