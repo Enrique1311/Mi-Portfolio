@@ -16,8 +16,9 @@
     transform: scale(1.1);
 }
 .my-button:active {
-    background: var(--secondary);
-    color: var(--primary);
+    transform: scale(.7);
+    opacity: .2;
+    transition: all ease .2s;
 }
 
 

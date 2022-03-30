@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="about-me-details">
           <div className="about-me-details-content" data-aos="zoom-in">
             <h2>
-              Por qué elegirme?
+              ¿Por qué elegirme?
             </h2>
             <p>
               Estudié la carrera de Full Stack Developer en 

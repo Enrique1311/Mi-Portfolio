@@ -82,7 +82,7 @@
     max-height: 0;
     font-size: .8rem;
     box-sizing: border-box;
-    transition: all .5s ease-out;
+    transition: all .5s ease-in-out;
     box-shadow: 0 0 15px 0 var(--dark-grey);
     border-radius: 15px;
     background-color: var(--light);
