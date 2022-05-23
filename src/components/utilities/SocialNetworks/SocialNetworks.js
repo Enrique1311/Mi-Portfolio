@@ -1,22 +1,24 @@
 import {
-  //    FaFacebookSquare,
-  //  FaInstagramSquare,
+  FaFacebookSquare,
+  FaInstagramSquare,
   FaGithubSquare,
-  //    FaYoutubeSquare,
+  //      FaYoutubeSquare,
   FaLinkedin,
-  //    FaPinterestSquare,
+  //      FaPinterestSquare,
 } from "react-icons/fa";
 //  import {BsFacebook, } from "react-icons/bs"
 import "./SocialNetworks.css";
 
 const SocialNetworks = () => {
   return (
-    <div className="social-icons" data-aos="zoom-in">
-      {/* <div>
-        <a href="#">
-          <i className="facebook"><FaInstagramSquare className="icons"/></i>
+    <div className="social-icons">
+      <div>
+        <a href="https://www.facebook.com/enrique.javier.coder">
+          <i className="facebook">
+            <FaFacebookSquare className="icons" />
+          </i>
         </a>
-      </div> */}
+      </div>
       <div>
         <a href="https://github.com/Enrique1311">
           <i className="github">
@@ -24,16 +26,13 @@ const SocialNetworks = () => {
           </i>
         </a>
       </div>
-      {/* <div>
-        <a href="#">
-          <i className="instagram"><FaInstagramSquare className="icons"/></i>
+      <div>
+        <a href="https://www.instagram.com/enrique.javier.coder">
+          <i className="instagram">
+            <FaInstagramSquare className="icons" />
+          </i>
         </a>
-      </div> */}
-      {/* <div>
-        <a href="#">
-          <i className="pinterest"><FaPinterestSquare className="icons"/></i>
-        </a>        
-      </div> */}
+      </div>
       <div>
         <a href="https://linkedin.com/in/enrique-spinelli">
           <i className="linkedin">
