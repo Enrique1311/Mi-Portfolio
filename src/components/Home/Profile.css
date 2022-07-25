@@ -114,7 +114,7 @@
     width: 3.5rem;
     position: absolute;
     animation: reactNativeLogoEfect 3s infinite;
-    animation-delay: 1.5s;
+    animation-delay: 1.2s;
     opacity: 0;
 }
 @keyframes reactNativeLogoEfect {    
