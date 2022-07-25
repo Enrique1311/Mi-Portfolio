@@ -33,11 +33,13 @@ const ProfileDetails = () => {
                             1000,
                             "Next Js",
                             1000,
+                            "React Native",
+                            1000,
                         ]}
                     />  
                     </h1>
                     <p className="profile-extra">
-                        Desarrollador de aplicaciones web Frontend y Backend.
+                        Desarrollador de aplicaciones web Frontend y Backend y para celulares.
                     </p>
                 </span>              
             </div>
