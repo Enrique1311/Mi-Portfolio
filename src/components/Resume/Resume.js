@@ -30,7 +30,7 @@ const Resume = () => {
       icon: <MdOutlineComputer/>,
       content: "Diseño Web: Html, Css, Javascript, React Js...",
       content2: "Aplicaciones para celulares: React Native.",
-      content3: "Soy proactivo, disciplinado, innovador, original y ma gusta resolver los desafíos con la máxima eficiencia y eficacia posibles.",
+      content3: "Soy proactivo, disciplinado, perseverante, original y ma gusta resolver los desafíos con la máxima eficiencia y eficacia posibles.",
       open: false
     },
     {
