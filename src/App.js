@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import AboutMe from './components/AboutMe/AboutMe';
 import Resume from './components/Resume/Resume';

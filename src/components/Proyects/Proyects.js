@@ -1,3 +1,4 @@
+import React from "react";
 import "./Proyects.css";
 import Subtitle from "../utilities/Subtitle/Subtitle";
 import ProyectsCards from "./ProyectsCards";

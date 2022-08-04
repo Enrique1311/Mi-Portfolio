@@ -1,3 +1,4 @@
+import React from "react";
 import Typical from "react-typical";
 import "./ProfileDetails.css";
 import SocialNetworks from "../utilities/SocialNetworks/SocialNetworks";

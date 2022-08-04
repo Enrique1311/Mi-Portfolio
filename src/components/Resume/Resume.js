@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Subtitle from "../utilities/Subtitle/Subtitle";
 import ItemResume from "./ItemResume";
 import "./Resume.css";

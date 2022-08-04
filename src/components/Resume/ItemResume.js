@@ -1,3 +1,4 @@
+import React from "react";
 import "./ItemResume.css";
 
 const ItemResume = ({item, index, toggle}) => {

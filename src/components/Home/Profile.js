@@ -1,3 +1,4 @@
+import React from "react";
 import "./Profile.css";
 import ProfileDetails from "./ProfileDetails";
 import cssLogo from "../../assets/css-logo.png";

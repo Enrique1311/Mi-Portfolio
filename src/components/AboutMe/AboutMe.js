@@ -1,3 +1,4 @@
+import React from "react";
 import "./AboutMe.css";
 import Subtitle from "../utilities/Subtitle/Subtitle";
 import HireResumeButtons from "../utilities/HireResumeButtons/HireResumeButtons";

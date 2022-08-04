@@ -1,3 +1,4 @@
+import React from "react";
 import SocialNetworks from "../utilities/SocialNetworks/SocialNetworks";
 import "./Footer.css";
 import MyForm from "./MyForm";

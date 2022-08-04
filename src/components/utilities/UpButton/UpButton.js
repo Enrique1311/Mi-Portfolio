@@ -1,3 +1,4 @@
+import React from "react";
 import "./UpButton.css"
 import { IoIosArrowUp } from "react-icons/io";
 

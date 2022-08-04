@@ -1,3 +1,4 @@
+import React from "react";
 import "./ProyectsCards.css";
 import img1 from "../../assets/christopher-gower-m_HRfLhgABo-unsplash.jpg";
 import img2 from "../../assets/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg";

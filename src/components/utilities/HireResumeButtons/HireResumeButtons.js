@@ -1,3 +1,4 @@
+import React from "react";
 import MyButton from "../Button/MyButton";
 import "./HireResumeButtons.css";
 

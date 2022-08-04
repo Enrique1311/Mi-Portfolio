@@ -1,3 +1,4 @@
+import React from "react";
 import MovileNav from "./MovileNav";
 import NormalNav from "./NormalNav";
 import "./Navbar.css";
