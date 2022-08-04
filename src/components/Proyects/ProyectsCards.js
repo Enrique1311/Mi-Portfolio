@@ -17,7 +17,7 @@ const ProyectsCards = () => {
         },
         { 
             id: "1",
-            title: "Website",
+            title: "Calculadora",
             img: img2,
             description: "Sitio web realizado con ReactJs, NextJs y Css.",
             url:""
@@ -27,13 +27,13 @@ const ProyectsCards = () => {
             title: "Movie App",
             img: img3,
             description: "Aplicacion web de películas realizado con ReactJs y Css",
-            url: ""
+            url: "https://movie-searcher-react.netlify.app/"
         },
         { 
             id: "3",
             title: "Ecommerce",
             img: img4,
-            description: "E",
+            description: "Ecommerce con React Native y Redux",
             url: ""
         }
     ];
@@ -51,10 +51,12 @@ const ProyectsCards = () => {
                                 </h4>
                                 <p className="card-description">
                                     {data.description}
-                                </p>                                
-                                <MyButton>
-                                    Ver más...
-                                </MyButton>
+                                </p> 
+                                <a href={data.url}>
+                                    <MyButton>
+                                        Ver sitio
+                                    </MyButton>                                          
+                                </a>                                                                                             
                             </div>
                         </div>  
                     </div>
