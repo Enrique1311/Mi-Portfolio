@@ -14,14 +14,14 @@ const ProyectsCards = () => {
             title: "My Portfolio",
             img: img1,
             description: "Este es mi Portfolio personal realizado con ReactJS y Css.",
-            url: ""
+            url: "https://enrique-spinelli-port.vercel.app/"
         },
         { 
             id: "1",
             title: "Calculadora",
             img: img2,
             description: "Sitio web realizado con ReactJs, NextJs y Css.",
-            url:""
+            url:"https://my-calculator-react.netlify.app/"
         },
         { 
             id: "2",
