@@ -1,6 +1,6 @@
 .back-arrow {
     color: var(--primary);
-    font-size: 1.5rem;
+    font-size: 2rem;
     position: sticky;
     position: -webkit-sticky;
     background-color: var(--secondary);

@@ -1,11 +1,11 @@
 .my-button {
-    padding: .3rem 1.3rem;
+    padding: .3rem 1rem;
     border-radius: 25px;
     background: var(--primary);
     border: 2px solid var(--light);
-    margin: .4rem;
+    margin: .5rem;
     color: var(--light);
-    font-size: .8rem;
+    font-size: .9rem;
     cursor: pointer;
 }
 .my-button:hover {

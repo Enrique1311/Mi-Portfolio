@@ -32,8 +32,6 @@ const ProfileDetails = () => {
                             1000,
                             "React Js",
                             1000,
-                            "Next Js",
-                            1000,
                             "React Native",
                             1000,
                         ]}

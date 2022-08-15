@@ -1,9 +1,10 @@
 import React from "react";
 import "./ProyectsCards.css";
-import img1 from "../../assets/christopher-gower-m_HRfLhgABo-unsplash.jpg";
-import img2 from "../../assets/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg";
-import img3 from "../../assets/nathan-da-silva-k-rKfqSm4L4-unsplash.jpg";
-import img4 from "../../assets/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg"
+import img1 from "../../assets/my-portfolio.png";
+import img2 from "../../assets/calculadora.png";
+import img3 from "../../assets/movie-app.png";
+import img4 from "../../assets/ecommerce-app.png";
+import img5 from "../../assets/task-app.png";
 import MyButton from "../utilities/Button/MyButton";
 
 const ProyectsCards = () => {
@@ -13,7 +14,7 @@ const ProyectsCards = () => {
             id: "0",
             title: "My Portfolio",
             img: img1,
-            description: "Este es mi Portfolio personal realizado con ReactJS y Css.",
+            description: "Mi Portfolio personal con ReactJS y Css.",
             url: "https://enrique-spinelli-port.vercel.app/"
         },
         { 
@@ -27,7 +28,7 @@ const ProyectsCards = () => {
             id: "2",
             title: "Movie App",
             img: img3,
-            description: "Aplicacion web de películas realizado con ReactJs y Css",
+            description: "Sitio web de películas con ReactJs y Css",
             url: "https://movie-searcher-react.netlify.app/"
         },
         { 
@@ -35,7 +36,14 @@ const ProyectsCards = () => {
             title: "Ecommerce",
             img: img4,
             description: "Ecommerce con React Native y Redux",
-            url: ""
+            url: "https://www.youtube.com/watch?v=I8kt15C6S0M"
+        },
+        { 
+            id: "4",
+            title: "Task App",
+            img: img5,
+            description: "Aplicación de tareas con React Native",
+            url: "https://www.youtube.com/watch?v=QXlreHsEIFY"
         }
     ];
     
@@ -55,7 +63,7 @@ const ProyectsCards = () => {
                                 </p> 
                                 <a href={data.url}>
                                     <MyButton>
-                                        Ver sitio
+                                        Ver más...
                                     </MyButton>                                          
                                 </a>                                                                                             
                             </div>
