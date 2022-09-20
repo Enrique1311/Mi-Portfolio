@@ -31,6 +31,9 @@
 	object-fit: contain;
 	overflow: hidden;
 }
+.card-description {
+	font-size: 1rem;
+}
 .card:hover {
 	animation: image-anim 0.5s;
 }

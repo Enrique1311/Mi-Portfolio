@@ -14,15 +14,13 @@
 	background-color: var(--light);
 }
 .about-me-photo {
-	margin: 3rem;
-	width: 70%;
+	margin: 1rem;
+	width: 80%;
 	max-height: 45rem;
 	min-height: 14rem;
 	background-image: url(../../assets/chose.jpg);
 	background-size: cover;
 	background-position: center;
-	/* border-radius: 15px;
-	box-shadow: 0 0 10px 0 var(--light-grey); */
 }
 .about-me-details {
 	height: 50%;
@@ -45,7 +43,7 @@
 .about-me-details {
 	text-align: justify;
 	margin-bottom: 0.5rem;
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 @media screen and (min-width: 480px) {
 	.about-me-details {

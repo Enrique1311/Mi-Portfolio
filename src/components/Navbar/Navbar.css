@@ -15,9 +15,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	text-decoration: none;
-	width: 7.5rem;
+	width: 7rem;
 }
 .logo a h1:hover {
 	text-shadow: 0 0 10px var(--light);
@@ -27,7 +27,7 @@
 .normal-nav {
 	display: none;
 }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 800px) {
 	.movile-nav {
 		display: none;
 	}
