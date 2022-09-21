@@ -76,14 +76,7 @@
 .copyright {
 	font-size: 0.8rem;
 }
-@media screen and (min-width: 768px) {
-	.footer-content {
-		flex-direction: row-reverse;
-		padding-top: 0;
-	}
-	.footer-social {
-		gap: 2rem;
-	}
+@media screen and (min-width: 650px) {
 	.footer-photo {
 		height: 10rem;
 		width: 12rem;
@@ -95,14 +88,15 @@
 		margin: 1rem;
 	}
 }
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1000px) {
+	.footer-content {
+		flex-direction: row-reverse;
+		padding-top: 0;
+	}
 	.footer-photo {
 		height: 12rem;
 		width: 16rem;
 		max-height: 250px;
 		max-width: 350px;
-	}
-	.footer-contacts {
-		margin: 3rem;
 	}
 }

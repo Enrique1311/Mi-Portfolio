@@ -1,13 +1,14 @@
 .hire-resume-buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 2rem;
 }
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
     .hire-resume-buttons {
         flex-direction: row;
     }
-}
+} */

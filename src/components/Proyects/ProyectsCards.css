@@ -69,6 +69,12 @@
 	text-align: center;
 	color: var(--dark-grey);
 }
+.icon {
+	height: 1.2rem;
+	height: 1.2rem;
+	position: absolute;
+	margin-left: 0.7rem;
+}
 .card-title {
 	color: var(--primary);
 }

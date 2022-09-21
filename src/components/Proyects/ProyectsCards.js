@@ -6,6 +6,7 @@ import img3 from "../../assets/movie.png";
 import img4 from "../../assets/mobile-ecommerce.png";
 import img5 from "../../assets/task.png";
 import MyButton from "../utilities/Button/MyButton";
+import { IoIosArrowForward } from "react-icons/io";
 
 const ProyectsCards = () => {
 	const proyectsData = [
@@ -57,7 +58,12 @@ const ProyectsCards = () => {
 								<div className="card-details">
 									<h2 className="card-title">{data.title}</h2>
 									<p className="card-description">{data.description}</p>
-									<MyButton>Ver más...</MyButton>
+									<MyButton>
+										<p className="button-text">
+											Ver
+											<IoIosArrowForward className="icon" />
+										</p>
+									</MyButton>
 								</div>
 							</div>
 						</a>
