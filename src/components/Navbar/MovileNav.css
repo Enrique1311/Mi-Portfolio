@@ -28,7 +28,7 @@
 	align-items: center;
 	gap: 4rem;
 	position: absolute;
-	top: 49px;
+	top: 60px;
 	right: 0;
 	background-color: var(--dark-grey, 0.5);
 	opacity: 1;
@@ -37,18 +37,6 @@
 	box-shadow: 0 0 5px 0 var(--light);
 	animation: menuEfect 1s linear;
 }
-/* @keyframes menuEfect {
-    0% {
-        top: -300px;
-        transform: scale(.05);
-    }
-    50% {
-        transform: scale(.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-} */
 @keyframes menuEfect {
 	0% {
 		opacity: 0.4;

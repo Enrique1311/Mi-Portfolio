@@ -34,13 +34,13 @@ const Resume = () => {
 				'Desarrollo Web: Html, Css, Javascript, React Js, React Native, Git, SQLite, MongoDB, Sass, Express...',
 			content2: 'Aplicaciones para celulares: React Native.',
 			content3:
-				'Soy proactivo, disciplinado, perseverante, original y ma gusta resolver los desafíos con la máxima eficiencia y eficacia posibles.',
+				'Soy proactivo, disciplinado, perseverante, original y me gusta resolver los desafíos con la máxima eficiencia y eficacia posibles.',
 			open: false,
 		},
 		{
 			title: 'Pasiones',
 			icon: <FaMusic />,
-			content: 'Me encanta escuchar música e ir al gimnasio.',
+			content: 'Me encanta ir a recitales de rock.',
 			content2: 'Viajar y conocer lugares nuevos.',
 			content3: 'Hacer páginas web es otra actividad que disfruto mucho.',
 			content4:
