@@ -24,7 +24,8 @@ const Resume = () => {
 				'1997 al 2009: MOCBA S.A.. Me desempeñe como control de servicio, inspector, Jefe de Tránsito y en tesorería.',
 			content2: '2009 al 2014: SR Viajes. Conductor profesional.',
 			content3: '2014 al 2019: Sides S.A.. Operario',
-			content4: '2019 hasta la actualidad: Uber. Conductor profesional',
+			content4: '2019 al 2021: Uber. Conductor profesional',
+			content5: 'Febrero 2022 hasta la actualidad: desarrollador web freelance',
 			open: false,
 		},
 		{
