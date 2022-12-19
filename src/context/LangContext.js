@@ -1,0 +1,199 @@
+import React, { createContext } from 'react';
+import { useState } from 'react';
+import { FaUserGraduate, FaHistory, FaMusic } from 'react-icons/fa';
+import { MdOutlineComputer } from 'react-icons/md';
+
+const LangContext = createContext();
+
+const languages = {
+	spanish: {
+		//navlinks
+		home: 'Inicio',
+		about: 'Sobre mí',
+		resume: 'Resumen',
+		projects: 'Proyectos',
+		contacts: 'Contactos',
+		//profile
+		hello: '¡Hola! Soy ',
+		subtitle:
+			'Desarrollador de aplicaciones web Frontend y Backend y para celulares.',
+		//hireResumeButtons
+		contactButton: 'Contáctame',
+		cvButton: 'Obtener CV',
+		//about-me
+		aboutMeTitle: 'Sobre mí',
+		aboutMeSubtitle: '¿Por qué elegirme?',
+		aboutMeContent:
+			'Amo la programación. No me rindo ante los desafíos. Creo sitios web y aplicaciones para celulares ágiles, intuitivos, modernos, visualmente atractivos y adaptables a todos los dispositivos para que los usuarios tengan un experiencia placentera. Quiero seguir aprendiendo de mis compañeros y aportar mis conocimientos.',
+		//resume
+		resumeTitle: 'Resumen',
+		resumeItemsContent: [
+			{
+				title: 'Educación',
+				icon: <FaUserGraduate />,
+				content:
+					'2018: Técnico en Seguridad e Higiene laboral en la Universidad Siglo 21.',
+				content2: '2021: Desarrollador WEb Full Stack en Numen Academy.',
+				content3:
+					'2022: Desarrollador de Aplicaciones para Celulares en Coderhouse',
+				open: false,
+			},
+			{
+				title: 'Historial',
+				icon: <FaHistory />,
+				content:
+					'1997 al 2009: MOCBA S.A.. Me desempeñe como control de servicio, inspector, Jefe de Tránsito y en tesorería.',
+				content2: '2009 al 2014: SR Viajes. Conductor profesional.',
+				content3: '2014 al 2019: Sides S.A.. Operario',
+				content4: '2019 al 2021: Uber. Conductor profesional',
+				content5:
+					'Febrero 2022 hasta la actualidad: desarrollador web freelance',
+				open: false,
+			},
+			{
+				title: 'Habilidades',
+				icon: <MdOutlineComputer />,
+				content:
+					'Desarrollo Web: Html, Css, Javascript, React Js, React Native, Git, SQLite, MongoDB, Sass, Express...',
+				content2: 'Aplicaciones para celulares: React Native.',
+				content3:
+					'Soy proactivo, disciplinado, perseverante, original y me gusta resolver los desafíos con la máxima eficiencia y eficacia posibles.',
+				open: false,
+			},
+			{
+				title: 'Pasiones',
+				icon: <FaMusic />,
+				content: 'Me encanta ir a recitales de rock.',
+				content2: 'Viajar y conocer lugares nuevos.',
+				content3: 'Hacer páginas web es otra actividad que disfruto mucho.',
+				content4:
+					'¡Estar con mi esposa y mis dos hijos es lo que más me llena el alma!',
+				open: false,
+			},
+		],
+		//projects
+		projectsTitle: 'Proyectos',
+		projectsButton: 'Ver',
+		//footer
+		footerTitle: 'Contactos',
+		footerContent:
+			'Si te gustan mis trabajos y deseas contratarme o realizarme alguna pregunta, aquí te dejo algunas vías de comunicación. O sólo puedes dejar tu consulta en este formulario. ¡Gracias!',
+		formName: 'Nombre',
+		formEmail: 'Email',
+		formMessage: 'Mensaje',
+		formButton: 'Enviar',
+		emailMessage: '¡Los datos han sido enviados!',
+		nameErrorMessage: '¡El Nombre es requerido!',
+		nameErrorMessage2:
+			'¡El campo Nombre sólo acepta letras y espacios en blanco!',
+		emailErrorMessage: '!El Email es requerido!',
+		emailErrorMessage2: '¡El Email es incorrecto!',
+		messageErrorMessage: '!El campo Mensaje es requerido!',
+		messageErrorMessage2: '¡El campo Mensaje acepta hasta 250 caracteres!',
+		copyright: 'Todos los derechos reservados',
+	},
+
+	english: {
+		//navlinks
+		home: 'Home',
+		about: 'About me',
+		resume: 'Resume',
+		projects: 'Proyects',
+		contacts: 'Contacts',
+		//profile
+		hello: 'Hello! I am ',
+		subtitle:
+			'Frontend and Backend web applications and for mobile phones Developer',
+		//hireResumeButtons
+		contactButton: 'Contact me',
+		cvButton: 'Download CV',
+		//about-me
+		aboutMeTitle: 'About me',
+		aboutMeSubtitle: 'Why chosse me?',
+		aboutMeContent:
+			"I love programming. I don't give up on challenges. I create agile, intuitive, modern, visually appealing and all-device websites and mobile apps for a pleasant experience. I want to continue learning from my colleagues and contribute my knowledge.",
+		//resume
+		resumeTitle: 'Resume',
+		resumeItemsContent: [
+			{
+				title: 'Education',
+				icon: <FaUserGraduate />,
+				content:
+					'2018: Occupational Safety and Hygiene Technician at Siglo 21 University.',
+				content2: '2021: Full Stack WEB Developer at Numen Academy.',
+				content3: '2022: Mobile Application Developer at Coderhouse.',
+				open: false,
+			},
+			{
+				title: 'History',
+				icon: <FaHistory />,
+				content:
+					'1997 to 2009: MOCBA S.A.. I worked as service control, inspector, Traffic Chief and in treasury.',
+				content2: '2009 to 2014: SR Viajes. Professional driver.',
+				content3: '2014 to 2019: Sides S.A.. Operator.',
+				content4: '2019 to 2021: Uber. Professional driver.',
+				content5: 'February 2022 to present: Freelance web developer',
+				open: false,
+			},
+			{
+				title: 'Skills',
+				icon: <MdOutlineComputer />,
+				content:
+					'Web development: Html, Css, Javascript, React Js, React Native, Git, SQLite, MongoDB, Sass, Express...',
+				content2: 'Mobile apps: React Native.',
+				content3:
+					'I am proactive, disciplined, persevering, original and I like to solve challenges as efficiently and effectively as possible.',
+				open: false,
+			},
+			{
+				title: 'Hobbies',
+				icon: <FaMusic />,
+				content: 'Go to rock concerts.',
+				content2: 'Travel and know new places.',
+				content3: 'Making web pages is another activity that I really enjoy.',
+				content4:
+					'¡Being with my wife and my two children is what fills my soul the most.!',
+				open: false,
+			},
+		],
+		//projects
+		projectsTitle: 'Projects',
+		projectsButton: 'See',
+		//footer
+		footerTitle: 'Contacts',
+		footerContent:
+			'If you like my work and want to hire me or ask me any questions, here are some ways of communication. Or you can only leave your query in this form. Thank you!',
+		formName: 'Name',
+		formEmail: 'Email',
+		formMessage: 'Message',
+		formButton: 'Submit',
+		emailMessage: 'The data has been sent!',
+		nameErrorMessage: 'The Name is required!',
+		nameErrorMessage2: 'The Name field only accepts letters and whitespace!',
+		emailErrorMessage: 'The Email is required!',
+		emailErrorMessage2: 'The Email field is incorrect!',
+		messageErrorMessage: 'The field Message is required!',
+		messageErrorMessage2: 'The Message field accepts up to 250 characters!',
+		copyright: 'All rights reserved',
+	},
+};
+
+const LangProvider = ({ children }) => {
+	const [language, setLanguage] = useState('spanish');
+	const [texts, setTexts] = useState(languages[language]);
+
+	const handleLanguageToSpanish = (e) => {
+		setLanguage('spanish');
+		setTexts(languages.spanish);
+	};
+	const handleLanguageToEnglish = (e) => {
+		setLanguage('english');
+		setTexts(languages.english);
+	};
+	const data = { texts, handleLanguageToSpanish, handleLanguageToEnglish };
+	return <LangContext.Provider value={data}>{children}</LangContext.Provider>;
+};
+
+export { LangProvider };
+
+export default LangContext;

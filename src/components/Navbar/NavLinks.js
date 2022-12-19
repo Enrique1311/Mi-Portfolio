@@ -1,26 +1,55 @@
-import React from "react";
-import "./NavLinks.css";
+import React from 'react';
+import { useContext } from 'react';
+import LangContext from '../../context/LangContext';
+import './NavLinks.css';
 
 const NavLinks = (props) => {
-  return (
-    <ul className="nav-links">
-      <li onClick={() => props.isMovileNav && props.closeMovileNav()}>
-        <a href="/#home" className="selected">Inicio</a>
-      </li>
-      <li onClick={() => props.isMovileNav && props.closeMovileNav()}>
-        <a href="/#about-me" className="selected">Sobre mí</a>
-      </li>          
-      <li onClick={() => props.isMovileNav && props.closeMovileNav()}>
-        <a href="/#resume" className="selected">Resumen</a>
-      </li>  
-      <li onClick={() => props.isMovileNav && props.closeMovileNav()}>
-        <a href="/#proyects" className="selected">Proyectos</a>
-      </li>        
-      <li onClick={() => props.isMovileNav && props.closeMovileNav()} >
-        <a href="/#contact-me" className="selected">Contáctame</a>
-      </li>          
-    </ul>
-  )
-}
+	const { texts } = useContext(LangContext);
 
-export default NavLinks
+	return (
+		<ul className='nav-links'>
+			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
+				<a
+					href='/#home'
+					className='selected'
+				>
+					{texts.home}
+				</a>
+			</li>
+			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
+				<a
+					href='/#about-me'
+					className='selected'
+				>
+					{texts.about}
+				</a>
+			</li>
+			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
+				<a
+					href='/#resume'
+					className='selected'
+				>
+					{texts.resume}
+				</a>
+			</li>
+			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
+				<a
+					href='/#proyects'
+					className='selected'
+				>
+					{texts.projects}
+				</a>
+			</li>
+			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
+				<a
+					href='/#contact-me'
+					className='selected'
+				>
+					{texts.contacts}
+				</a>
+			</li>
+		</ul>
+	);
+};
+
+export default NavLinks;

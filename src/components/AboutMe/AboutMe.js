@@ -2,14 +2,18 @@ import React from 'react';
 import './AboutMe.css';
 import Subtitle from '../utilities/Subtitle/Subtitle';
 import HireResumeButtons from '../utilities/HireResumeButtons/HireResumeButtons';
+import { useContext } from 'react';
+import LangContext from '../../context/LangContext';
 
 const AboutMe = () => {
+	const { texts } = useContext(LangContext);
+
 	return (
 		<div
 			className='about-me-container'
 			id='about-me'
 		>
-			<Subtitle>Sobre mí</Subtitle>
+			<Subtitle>{texts.aboutMeTitle}</Subtitle>
 			<div
 				className='about-me'
 				data-aos='zoom-in'
@@ -23,14 +27,8 @@ const AboutMe = () => {
 						className='about-me-details-content'
 						data-aos='zoom-in'
 					>
-						<h2>¿Por qué elegirme?</h2>
-						<p>
-							Amo la programación. No me rindo ante los desafíos. Creo sitios
-							web y aplicaciones para celulares ágiles, intuitivos, modernos,
-							visualmente atractivos y adaptables a todos los dispositivos para
-							que los usuarios tengan una experiencia placentera. Quiero seguir
-							aprendiendo de mis compañeros y aportar mis conocimientos.
-						</p>
+						<h2>{texts.aboutMeSubtitle}</h2>
+						<p>{texts.aboutMeContent}</p>
 					</div>
 					<HireResumeButtons className='about-me-button' />
 				</div>

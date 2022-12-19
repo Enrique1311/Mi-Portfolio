@@ -31,7 +31,7 @@
 	color: var(--secondary);
 }
 .item-title {
-	width: 90%;
+	width: 65%;
 	height: 2.2rem;
 	font-size: 1rem;
 	background-color: var(--primary);
@@ -50,7 +50,7 @@
 	color: var(--secondary);
 }
 .item-title::after {
-	content: "";
+	content: '';
 	position: absolute;
 	top: 50%;
 	right: 10px;
@@ -59,7 +59,7 @@
 	transform: translateY(-50%) rotate(90deg);
 	width: 1rem;
 	height: 1rem;
-	background-image: url("../../assets/arrow.png");
+	background-image: url('../../assets/arrow.png');
 	background-position: center;
 	background-size: 1.2rem;
 	background-repeat: no-repeat;
@@ -70,6 +70,7 @@
 }
 .open .item-title {
 	width: 100%;
+	color: var(--secondary);
 }
 .item-content {
 	display: flex;
