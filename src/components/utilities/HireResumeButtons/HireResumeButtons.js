@@ -16,8 +16,8 @@ const HireResumeButtons = () => {
 				<MyButton>{texts.contactButton}</MyButton>
 			</a>
 			<a
-				href='CV_Enrique_Spinelli.pdf'
-				download='CV_Enrique_Spinelli.pdf'
+				href={texts.cvPdf}
+				download={texts.cvPdf}
 			>
 				<MyButton>{texts.cvButton}</MyButton>
 			</a>

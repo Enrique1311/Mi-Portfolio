@@ -20,6 +20,7 @@ const languages = {
 		//hireResumeButtons
 		contactButton: 'Contáctame',
 		cvButton: 'Obtener CV',
+		cvPdf: 'CV_Enrique_Spinelli.pdf',
 		//about-me
 		aboutMeTitle: 'Sobre mí',
 		aboutMeSubtitle: '¿Por qué elegirme?',
@@ -32,22 +33,23 @@ const languages = {
 				title: 'Educación',
 				icon: <FaUserGraduate />,
 				content:
-					'2018: Técnico en Seguridad e Higiene laboral en la Universidad Siglo 21.',
-				content2: '2021: Desarrollador WEb Full Stack en Numen Academy.',
+					'Actualmente: Estudiando Python y ampliando mi inglés como autodidacta.',
+				content2: '2022: Sass, MongoDB, Express y SQLite como autodidacta.',
 				content3:
 					'2022: Desarrollador de Aplicaciones para Celulares en Coderhouse',
+				content4: '2021: Desarrollador WEb Full Stack en Numen Academy.',
 				open: false,
 			},
 			{
 				title: 'Historial',
 				icon: <FaHistory />,
 				content:
-					'1997 al 2009: MOCBA S.A.. Me desempeñe como control de servicio, inspector, Jefe de Tránsito y en tesorería.',
-				content2: '2009 al 2014: SR Viajes. Conductor profesional.',
-				content3: '2014 al 2019: Sides S.A.. Operario',
-				content4: '2019 al 2021: Uber. Conductor profesional',
-				content5:
 					'Febrero 2022 hasta la actualidad: desarrollador web freelance',
+				content2: '2019 al 2021: Uber. Conductor profesional',
+				content3: '2014 al 2019: Sides S.A.. Operario',
+				content4: '2009 al 2014: SR Viajes. Conductor profesional.',
+				content5:
+					'1997 al 2009: MOCBA S.A.. Me desempeñe como control de servicio, inspector, Jefe de Tránsito y en tesorería.',
 				open: false,
 			},
 			{
@@ -107,6 +109,7 @@ const languages = {
 		//hireResumeButtons
 		contactButton: 'Contact me',
 		cvButton: 'Download CV',
+		cvPdf: 'CV_Enrique_Spinelli_english.pdf',
 		//about-me
 		aboutMeTitle: 'About me',
 		aboutMeSubtitle: 'Why chosse me?',
@@ -119,20 +122,20 @@ const languages = {
 				title: 'Education',
 				icon: <FaUserGraduate />,
 				content:
-					'2018: Occupational Safety and Hygiene Technician at Siglo 21 University.',
-				content2: '2021: Full Stack WEB Developer at Numen Academy.',
-				content3: '2022: Mobile Application Developer at Coderhouse.',
+					'Currently: Studying Python and expanding my English as an autodidact.',
+				content2: '2022: Mobile Application Developer at Coderhouse.',
+				content3: '2021: Full Stack WEB Developer at Numen Academy.',
 				open: false,
 			},
 			{
 				title: 'History',
 				icon: <FaHistory />,
-				content:
-					'1997 to 2009: MOCBA S.A.. I worked as service control, inspector, Traffic Chief and in treasury.',
-				content2: '2009 to 2014: SR Viajes. Professional driver.',
+				content: 'February 2022 to present: Freelance web developer',
+				content2: '2019 to 2021: Uber. Professional driver.',
 				content3: '2014 to 2019: Sides S.A.. Operator.',
-				content4: '2019 to 2021: Uber. Professional driver.',
-				content5: 'February 2022 to present: Freelance web developer',
+				content4: '2009 to 2014: SR Viajes. Professional driver.',
+				content5:
+					'1997 to 2009: MOCBA S.A.. I worked as service control, inspector, Traffic Chief and in treasury.',
 				open: false,
 			},
 			{
@@ -152,7 +155,7 @@ const languages = {
 				content2: 'Travel and know new places.',
 				content3: 'Making web pages is another activity that I really enjoy.',
 				content4:
-					'¡Being with my wife and my two children is what fills my soul the most.!',
+					'¡Being with my wife and my two children is what fills my soul the most!',
 				open: false,
 			},
 		],
