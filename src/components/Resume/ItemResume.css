@@ -91,15 +91,15 @@
 .open .item-content {
 	height: auto;
 	max-height: 1000px;
-	opacity: 1;
 	padding: 2rem;
+	transition-delay: 0.3s;
 }
 .item-content p {
 	opacity: 0;
 }
 .open .item-content p {
 	opacity: 1;
-	transition-delay: 0.6s;
+	transition-delay: 0.8s;
 }
 
 @media screen and (min-width: 768px) {
