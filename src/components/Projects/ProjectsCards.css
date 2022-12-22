@@ -14,16 +14,15 @@
 	width: 14rem;
 	height: 18rem;
 	padding: 0.8rem;
-	/* background-color: var(--dark-grey); */
 	overflow: hidden;
 	text-align: center;
 	border-radius: 10px;
 	box-shadow: 0 0 10px 0 var(--dark-grey);
-	/* color: var(--light); */
 	cursor: pointer;
 }
 .card:hover {
-	box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+	box-shadow: 0 0 30px 0 rgb(0, 0, 0);
+	scale: 1.04;
 }
 .card-image {
 	width: 100%;
@@ -33,26 +32,6 @@
 }
 .card-description {
 	font-size: 1rem;
-}
-.card:hover {
-	animation: image-anim 0.5s;
-}
-@keyframes image-anim {
-	0% {
-		transform: rotate3d(40deg);
-	}
-	25% {
-		transform: rotateX(40deg);
-	}
-	50% {
-		transform: rotateY(40deg);
-	}
-	75% {
-		transform: rotateX(40deg);
-	}
-	100% {
-		transform: rotate(0);
-	}
 }
 .card-details {
 	width: 100%;

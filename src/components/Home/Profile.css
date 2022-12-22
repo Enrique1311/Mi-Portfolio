@@ -31,7 +31,6 @@
 	align-items: center;
 	height: 90%;
 	width: 90%;
-	/* background-image: url('../../assets/home-img.jpg'); */
 	background-image: url('../../assets/bg-picture.jpg');
 	opacity: 0.8;
 	background-size: cover;

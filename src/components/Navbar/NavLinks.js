@@ -34,7 +34,7 @@ const NavLinks = (props) => {
 			</li>
 			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
 				<a
-					href='/#proyects'
+					href='/#projects'
 					className='selected'
 				>
 					{texts.projects}

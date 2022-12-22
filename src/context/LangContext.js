@@ -15,8 +15,7 @@ const languages = {
 		contacts: 'Contactos',
 		//profile
 		hello: '¡Hola! Soy ',
-		subtitle:
-			'Desarrollador de aplicaciones web Frontend y Backend y para celulares.',
+		subtitle: 'Desarrollador Full Stack de aplicaciones web y para celulares.',
 		//hireResumeButtons
 		contactButton: 'Contáctame',
 		cvButton: 'Obtener CV',
@@ -100,12 +99,11 @@ const languages = {
 		home: 'Home',
 		about: 'About me',
 		resume: 'Resume',
-		projects: 'Proyects',
+		projects: 'Projects',
 		contacts: 'Contacts',
 		//profile
 		hello: 'Hello! I am ',
-		subtitle:
-			'Frontend and Backend web applications and for mobile phones Developer',
+		subtitle: 'Full Stack Web and Mobile Application Developer',
 		//hireResumeButtons
 		contactButton: 'Contact me',
 		cvButton: 'Download CV',
@@ -153,7 +151,7 @@ const languages = {
 				icon: <FaMusic />,
 				content: 'Go to rock concerts.',
 				content2: 'Travel and know new places.',
-				content3: 'Making web pages is another activity that I really enjoy.',
+				content3: 'Making web sites is another activity that I really enjoy.',
 				content4:
 					'¡Being with my wife and my two children is what fills my soul the most!',
 				open: false,
