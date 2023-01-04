@@ -18,7 +18,7 @@ const Proyects = () => {
 				className='projects'
 				data-aos='zoom-in'
 			>
-				<ProjectsCards />;
+				<ProjectsCards />
 			</div>
 		</div>
 	);
