@@ -180,7 +180,7 @@ const languages = {
 };
 
 const LangProvider = ({ children }) => {
-	const [language, setLanguage] = useState('spanish');
+	const [language, setLanguage] = useState('english');
 	const [texts, setTexts] = useState(languages[language]);
 
 	const handleLanguageToSpanish = (e) => {
