@@ -32,7 +32,7 @@ const languages = {
 				title: 'Educación',
 				icon: <FaUserGraduate />,
 				content:
-					'Actualmente: Estudiando Python y ampliando mi inglés como autodidacta.',
+					'Actualmente: Estudiando Python y ampliando mi inglés en Platzi Academy.',
 				content2: '2022: Sass, MongoDB, Express y SQLite como autodidacta.',
 				content3:
 					'2022: Desarrollador de Aplicaciones para Celulares en Coderhouse',
@@ -120,7 +120,7 @@ const languages = {
 				title: 'Education',
 				icon: <FaUserGraduate />,
 				content:
-					'Currently: Studying Python and expanding my English as an autodidact.',
+					'Currently: Studying Python and expanding my English in Platzi Academy.',
 				content2: '2022: Mobile Application Developer at Coderhouse.',
 				content3: '2021: Full Stack WEB Developer at Numen Academy.',
 				open: false,
