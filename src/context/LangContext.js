@@ -19,7 +19,7 @@ const languages = {
 		//hireResumeButtons
 		contactButton: 'Contáctame',
 		cvButton: 'Obtener CV',
-		cvPdf: 'CV_Enrique_Spinelli.pdf',
+		cvPdf: 'CV_Enrique_Spinelli_en_castellano.pdf',
 		//about-me
 		aboutMeTitle: 'Sobre mí',
 		aboutMeSubtitle: '¿Por qué elegirme?',
@@ -55,7 +55,7 @@ const languages = {
 				title: 'Habilidades',
 				icon: <MdOutlineComputer />,
 				content:
-					'Desarrollo Web: Html, Css, Javascript, React Js, React Native, Git, SQLite, MongoDB, Sass, Express...',
+					'Desarrollo Web: Html, Css, Javascript, React Js, React Native, Git, SQLite, MongoDB, Sass, Express, NodeJs, Bootstrap, Axios...',
 				content2: 'Aplicaciones para celulares: React Native.',
 				content3:
 					'Soy proactivo, disciplinado, perseverante, original y me gusta resolver los desafíos con la máxima eficiencia y eficacia posibles.',
@@ -107,7 +107,7 @@ const languages = {
 		//hireResumeButtons
 		contactButton: 'Contact me',
 		cvButton: 'Download CV',
-		cvPdf: 'CV_Enrique_Spinelli_english.pdf',
+		cvPdf: 'CV_Enrique_Spinelli_in_English.pdf',
 		//about-me
 		aboutMeTitle: 'About me',
 		aboutMeSubtitle: 'Why chosse me?',
@@ -140,7 +140,7 @@ const languages = {
 				title: 'Skills',
 				icon: <MdOutlineComputer />,
 				content:
-					'Web development: Html, Css, Javascript, React Js, React Native, Git, SQLite, MongoDB, Sass, Express...',
+					'Web development: Html, Css, Javascript, React Js, React Native, Git, SQLite, MongoDB, Sass, Express, NodeJs, Bootstrap, Axios...',
 				content2: 'Mobile apps: React Native.',
 				content3:
 					'I am proactive, disciplined, persevering, original and I like to solve challenges as efficiently and effectively as possible.',
