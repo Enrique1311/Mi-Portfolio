@@ -9,6 +9,7 @@
 }
 .profile-details-name {
 	width: 16rem;
+	animation: leftEfect 1s ease-in;
 }
 .profile-details-name span {
 	font-size: 1.8rem;

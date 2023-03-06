@@ -23,14 +23,14 @@ const AboutMe = () => {
 					data-aos='zoom-in'
 				></div>
 				<div className='about-me-details'>
-					<div
-						className='about-me-details-content'
-						data-aos='zoom-in'
-					>
+					<div className='about-me-details-content'>
 						<h2>{texts.aboutMeSubtitle}</h2>
 						<p>{texts.aboutMeContent}</p>
 					</div>
-					<HireResumeButtons className='about-me-button' />
+					<HireResumeButtons
+						className='about-me-button'
+						data-aos='fade-right'
+					/>
 				</div>
 			</div>
 		</div>

@@ -8,10 +8,7 @@ const HireResumeButtons = () => {
 	const { texts } = useContext(LangContext);
 
 	return (
-		<div
-			className='hire-resume-buttons'
-			data-aos='zoom-in'
-		>
+		<div className='hire-resume-buttons'>
 			<a href='/#contact-me'>
 				<MyButton>{texts.contactButton}</MyButton>
 			</a>
