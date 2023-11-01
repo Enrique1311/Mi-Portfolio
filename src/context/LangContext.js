@@ -152,8 +152,8 @@ const languages = {
 			{
 				title: "Hobbies",
 				icon: <FaMusic />,
-				content: "Go to rock concerts.",
-				content2: "Travel and know new places.",
+				content: "Going to rock concerts.",
+				content2: "Traveling and knowing new places.",
 				content3: "Making web sites is another activity that I really enjoy.",
 				content4:
 					"¡Being with my wife and my two children is what fills my soul the most!",
