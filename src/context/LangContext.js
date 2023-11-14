@@ -19,7 +19,7 @@ const languages = {
 		//hireResumeButtons
 		contactButton: "Contáctame",
 		cvButton: "Obtener CV",
-		cvPdf: "spanish_cv_enrique_spinellu.pdf",
+		cvPdf: "spanish_cv_enrique_spinelli.pdf",
 		//about-me
 		aboutMeTitle: "Sobre mí",
 		aboutMeSubtitle: "¿Por qué elegirme?",
