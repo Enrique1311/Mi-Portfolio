@@ -6,6 +6,7 @@ import img3 from "../../assets/movie.png";
 import img4 from "../../assets/mobile-ecommerce.png";
 import img5 from "../../assets/task.png";
 import img6 from "../../assets/beer.png";
+import img7 from "../../assets/responsive.png";
 import MyButton from "../utilities/Button/MyButton";
 import { IoIosArrowForward } from "react-icons/io";
 import LangContext from "../../context/LangContext";
@@ -26,14 +27,14 @@ const ProjectsCards = () => {
 			id: "1",
 			title: "Calculator app",
 			img: img2,
-			description: "ReactJs, NextJs & Css.",
+			description: "ReactJs, NextJs & CSS",
 			url: "https://my-calculator-react.netlify.app/",
 		},
 		{
 			id: "2",
 			title: "Movie App",
 			img: img3,
-			description: "ReactJs & Css",
+			description: "ReactJs & CSS",
 			url: "https://movie-searcher-react.netlify.app/",
 		},
 		{
@@ -54,8 +55,15 @@ const ProjectsCards = () => {
 			id: "5",
 			title: "Resto Website",
 			img: img6,
-			description: "Html, Css & JavaScript",
+			description: "Html, CSS & JavaScript",
 			url: "https://resto-project-neon.vercel.app",
+		},
+		{
+			id: "6",
+			title: "AI Website",
+			img: img7,
+			description: "ReactJs & CSS",
+			url: "https://ai-page-eosin.vercel.app",
 		},
 	];
 
