@@ -34,7 +34,7 @@ const ProjectsCards = () => {
 			id: "2",
 			title: "Movie App",
 			img: img3,
-			description: "ReactJs & CSS",
+			description: "API, ReactJs & CSS",
 			url: "https://movie-searcher-react.netlify.app/",
 		},
 		{
