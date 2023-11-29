@@ -75,7 +75,7 @@ const languages = {
 		],
 		//projects
 		projectsTitle: "Proyectos",
-		projectsButton: "Ver",
+		projectsButton: "Ver Más",
 		//footer
 		footerTitle: "Contactos",
 		footerContent:
@@ -162,7 +162,7 @@ const languages = {
 		],
 		//projects
 		projectsTitle: "Projects",
-		projectsButton: "See",
+		projectsButton: "View More",
 		//footer
 		footerTitle: "Contacts",
 		footerContent:
