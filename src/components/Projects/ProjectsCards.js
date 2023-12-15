@@ -7,6 +7,7 @@ import img4 from "../../assets/mobile-ecommerce.png";
 import img5 from "../../assets/task.png";
 import img6 from "../../assets/beer.png";
 import img7 from "../../assets/responsive.png";
+import img8 from "../../assets/food.png";
 import MyButton from "../utilities/Button/MyButton";
 import { IoIosArrowForward } from "react-icons/io";
 import LangContext from "../../context/LangContext";
@@ -53,7 +54,7 @@ const ProjectsCards = () => {
 		},
 		{
 			id: "5",
-			title: "Resto Website",
+			title: "Bar Website",
 			img: img6,
 			description: "Html, CSS & JavaScript",
 			url: "https://resto-project-neon.vercel.app",
@@ -64,6 +65,13 @@ const ProjectsCards = () => {
 			img: img7,
 			description: "ReactJs & CSS",
 			url: "https://ai-page-eosin.vercel.app",
+		},
+		{
+			id: "7",
+			title: "Restó Website",
+			img: img8,
+			description: "ReactJs & CSS",
+			url: "https://ejs-restaurant-react-app.vercel.app/",
 		},
 	];
 
