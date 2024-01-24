@@ -31,7 +31,7 @@ const Footer = () => {
 							<p>{texts.footerContent}</p>
 						</div>
 						<div className="whatsapp-email-container">
-							<a href="wa.me/5491149144055">
+							<a href="https://wa.me/5491149144055">
 								{" "}
 								<div
 									className="whatsapp-email"
