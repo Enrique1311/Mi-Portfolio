@@ -11,7 +11,7 @@
 .nav-links a:hover {
 	border-bottom: 3px solid var(--secondary);
 	border-left: 1px solid var(--secondary);
-	border-radius: 7px;
+	border-radius: 25px;
 	padding: 5px 15px 5px 14px;
 	color: var(--secondary);
 }

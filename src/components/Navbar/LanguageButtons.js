@@ -1,35 +1,35 @@
-import React from 'react';
-import './LanguageButtons.css';
-import spain from '../../assets/spain.png';
-import eng from '../../assets/united-states-of-america.png';
-import LangContext from '../../context/LangContext';
-import { useContext } from 'react';
+import React from "react";
+import "./LanguageButtons.css";
+import spain from "../../assets/spain.png";
+import eng from "../../assets/united-states-of-america.png";
+import langContext from "../../context/langContext";
+import { useContext } from "react";
 
 const LanguageButtons = () => {
 	const { handleLanguageToEnglish, handleLanguageToSpanish } =
-		useContext(LangContext);
+		useContext(langContext);
 
 	return (
 		<div
-			className='flags'
-			id='flags'
+			className="flags"
+			id="flags"
 		>
 			<button
-				className='flag'
+				className="flag"
 				onClick={handleLanguageToSpanish}
 			>
 				<img
 					src={spain}
-					alt='Spanish'
+					alt="Spanish"
 				/>
 			</button>
 			<button
-				className='flag'
+				className="flag"
 				onClick={handleLanguageToEnglish}
 			>
 				<img
 					src={eng}
-					alt='English'
+					alt="English"
 				/>
 			</button>
 		</div>

@@ -1,10 +1,5 @@
 import React from "react";
-import {
-	// FaFacebookSquare,
-	// FaInstagramSquare,
-	FaGithubSquare,
-	FaLinkedin,
-} from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import "./SocialNetworks.css";
 
 const SocialNetworks = () => {

@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import Subtitle from '../utilities/Subtitle/Subtitle';
-import ItemResume from './ItemResume';
-import './Resume.css';
-import { useContext } from 'react';
-import LangContext from '../../context/LangContext';
+import React, { useEffect, useState } from "react";
+import Subtitle from "../utilities/Subtitle/Subtitle";
+import ItemResume from "./ItemResume";
+import "./Resume.css";
+import { useContext } from "react";
+import langContext from "../../context/langContext";
 
 const Resume = () => {
-	const { texts } = useContext(LangContext);
+	const { texts } = useContext(langContext);
 
 	const [items, setItem] = useState(texts.resumeItemsContent);
 
@@ -32,16 +32,17 @@ const Resume = () => {
 
 	return (
 		<div
-			className='resume-container'
-			id='resume'
+			className="resume-container"
+			id="resume"
 		>
 			<Subtitle>{texts.resumeTitle}</Subtitle>
 			<div
-				className='resume'
-				data-aos='zoom-in'
+				className="resume"
+				data-aos="zoom-in"
 			>
 				{items.map((item, index) => (
 					<ItemResume
+						key={index}
 						item={item}
 						index={index}
 						toggle={toggle}

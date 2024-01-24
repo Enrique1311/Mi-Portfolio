@@ -1,43 +1,43 @@
-import React from 'react';
-import Typical from 'react-typical';
-import './ProfileDetails.css';
-import SocialNetworks from '../utilities/SocialNetworks/SocialNetworks';
-import HireResumeButtons from '../utilities/HireResumeButtons/HireResumeButtons';
-import LangContext from '../../context/LangContext';
-import { useContext } from 'react';
+import React from "react";
+import Typical from "react-typical";
+import "./ProfileDetails.css";
+import SocialNetworks from "../utilities/SocialNetworks/SocialNetworks";
+import HireResumeButtons from "../utilities/HireResumeButtons/HireResumeButtons";
+import langContext from "../../context/langContext";
+import { useContext } from "react";
 
 const ProfileDetails = () => {
-	const { texts } = useContext(LangContext);
+	const { texts } = useContext(langContext);
 
 	return (
-		<div className='profile-details'>
+		<div className="profile-details">
 			<SocialNetworks />
-			<div className='profile-details-name'>
-				<span className='primary-text'>
-					{' '}
+			<div className="profile-details-name">
+				<span className="primary-text">
+					{" "}
 					{texts.hello}
-					<span className='name-text'>Enrique J. Spinelli</span>
+					<span className="name-text">Enrique J. Spinelli</span>
 				</span>
 			</div>
-			<div className='profile-details-role'>
-				<span className='primary-text'>
-					<p className='profile-extra'>{texts.subtitle}</p>{' '}
+			<div className="profile-details-role">
+				<span className="primary-text">
+					<p className="profile-extra">{texts.subtitle}</p>{" "}
 					<h1>
-						{' '}
+						{" "}
 						<Typical
 							loop={Infinity}
 							steps={[
-								'Full Stack',
+								"Full Stack",
 								1500,
-								'Html',
+								"Html",
 								1500,
-								'Css',
+								"Css",
 								1500,
-								'Javascript',
+								"Javascript",
 								1500,
-								'React Js',
+								"React Js",
 								1500,
-								'React Native',
+								"React Native",
 								1500,
 							]}
 						/>

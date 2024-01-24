@@ -6,10 +6,10 @@ import { FaWhatsapp } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
 import Subtitle from "../utilities/Subtitle/Subtitle";
 import { useContext } from "react";
-import LangContext from "../../context/LangContext";
+import langContext from "../../context/langContext";
 
 const Footer = () => {
-	const { texts } = useContext(LangContext);
+	const { texts } = useContext(langContext);
 
 	return (
 		<div
@@ -31,13 +31,16 @@ const Footer = () => {
 							<p>{texts.footerContent}</p>
 						</div>
 						<div className="whatsapp-email-container">
-							<div
-								className="whatsapp-email"
-								data-aos="zoom-in"
-							>
-								<FaWhatsapp className="contact-logo" />
-								<p>+54 9 11 4914-4055</p>
-							</div>
+							<a href="wa.me/5491149144055">
+								{" "}
+								<div
+									className="whatsapp-email"
+									data-aos="zoom-in"
+								>
+									<FaWhatsapp className="contact-logo" />
+									<p>+54 9 11 4914-4055</p>
+								</div>{" "}
+							</a>
 							<div
 								className="whatsapp-email"
 								data-aos="zoom-in"

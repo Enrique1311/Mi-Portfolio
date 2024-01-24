@@ -1,49 +1,49 @@
-import React from 'react';
-import { useContext } from 'react';
-import LangContext from '../../context/LangContext';
-import './NavLinks.css';
+import React from "react";
+import { useContext } from "react";
+import langContext from "../../context/langContext";
+import "./NavLinks.css";
 
 const NavLinks = (props) => {
-	const { texts } = useContext(LangContext);
+	const { texts } = useContext(langContext);
 
 	return (
-		<ul className='nav-links'>
+		<ul className="nav-links">
 			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
 				<a
-					href='/#home'
-					className='selected'
+					href="/#home"
+					className="selected"
 				>
 					{texts.home}
 				</a>
 			</li>
 			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
 				<a
-					href='/#about-me'
-					className='selected'
+					href="/#about-me"
+					className="selected"
 				>
 					{texts.about}
 				</a>
 			</li>
 			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
 				<a
-					href='/#resume'
-					className='selected'
+					href="/#resume"
+					className="selected"
 				>
 					{texts.resume}
 				</a>
 			</li>
 			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
 				<a
-					href='/#projects'
-					className='selected'
+					href="/#projects"
+					className="selected"
 				>
 					{texts.projects}
 				</a>
 			</li>
 			<li onClick={() => props.isMovileNav && props.closeMovileNav()}>
 				<a
-					href='/#contact-me'
-					className='selected'
+					href="/#contact-me"
+					className="selected"
 				>
 					{texts.contacts}
 				</a>

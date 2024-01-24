@@ -49,11 +49,21 @@
 	color: var(--dark-grey);
 }
 .icon {
-	height: 1.2rem;
-	height: 1.2rem;
-	position: absolute;
-	margin-left: 0.7rem;
+	width: 1rem;
+	height: 1rem;
 }
 .card-title {
 	color: var(--primary);
+}
+.card-buttons-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.3rem;
+	font-size: 1rem;
 }

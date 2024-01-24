@@ -55,7 +55,7 @@ const languages = {
 				title: "Habilidades",
 				icon: <MdOutlineComputer />,
 				content:
-					"Desarrollo Web: Html, Css, Material UI, Javascript, React Js, React Native, Git, SQLite, MongoDB, Strapi, Sass, Express, NodeJs, Bootstrap, Axios...",
+					"Desarrollo Web: Html, Css, Javascript, ReactJs, NextJs React Native, Git, SQLite, MongoDB, Strapi, Express, NodeJs, Bootstrap, Axios, Material UI, Sass, Tailwind...",
 				content2: "Aplicaciones para celulares: React Native.",
 				content3: "Inglés intermedio.",
 				content4:
@@ -75,7 +75,8 @@ const languages = {
 		],
 		//projects
 		projectsTitle: "Proyectos",
-		projectsButton: "Ver Más",
+		gitHubButton: "Código",
+		showButton: "Ver",
 		//footer
 		footerTitle: "Contactos",
 		footerContent:
@@ -142,7 +143,7 @@ const languages = {
 				title: "Skills",
 				icon: <MdOutlineComputer />,
 				content:
-					"Web development: Html, Css, Material UI, Javascript, React Js, React Native, Git, SQLite, Strapi, MongoDB, Sass, Express, NodeJs, Bootstrap, Axios...",
+					"Web development: Html, Css, Javascript, ReactJs, NextJs, React Native, Git, SQLite, Strapi, MongoDB, Express, NodeJs, Axios, Material UI, Sass, Bootstrap, Tailwind...",
 				content2: "Mobile apps: React Native.",
 				content3: "Intermediate English.",
 				content4:
@@ -162,7 +163,8 @@ const languages = {
 		],
 		//projects
 		projectsTitle: "Projects",
-		projectsButton: "View More",
+		gitHubButton: "Code",
+		showButton: "Show",
 		//footer
 		footerTitle: "Contacts",
 		footerContent:

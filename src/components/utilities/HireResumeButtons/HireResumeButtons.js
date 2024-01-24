@@ -1,15 +1,15 @@
-import React from 'react';
-import { useContext } from 'react';
-import LangContext from '../../../context/LangContext';
-import MyButton from '../Button/MyButton';
-import './HireResumeButtons.css';
+import React from "react";
+import { useContext } from "react";
+import langContext from "../../../context/langContext";
+import MyButton from "../Button/MyButton";
+import "./HireResumeButtons.css";
 
 const HireResumeButtons = () => {
-	const { texts } = useContext(LangContext);
+	const { texts } = useContext(langContext);
 
 	return (
-		<div className='hire-resume-buttons'>
-			<a href='/#contact-me'>
+		<div className="hire-resume-buttons">
+			<a href="/#contact-me">
 				<MyButton>{texts.contactButton}</MyButton>
 			</a>
 			<a
