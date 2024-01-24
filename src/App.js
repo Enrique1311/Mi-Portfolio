@@ -10,7 +10,7 @@ import Projects from "./components/Projects/Projects";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { LangProvider } from "./context/langContext";
+import { LangProvider } from "./context/LangContext";
 
 function App() {
 	useEffect(() => {

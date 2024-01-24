@@ -3,11 +3,11 @@ import Typical from "react-typical";
 import "./ProfileDetails.css";
 import SocialNetworks from "../utilities/SocialNetworks/SocialNetworks";
 import HireResumeButtons from "../utilities/HireResumeButtons/HireResumeButtons";
-import langContext from "../../context/langContext";
+import LangContext from "../../context/LangContext";
 import { useContext } from "react";
 
 const ProfileDetails = () => {
-	const { texts } = useContext(langContext);
+	const { texts } = useContext(LangContext);
 
 	return (
 		<div className="profile-details">

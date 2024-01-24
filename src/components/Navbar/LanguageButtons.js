@@ -2,12 +2,12 @@ import React from "react";
 import "./LanguageButtons.css";
 import spain from "../../assets/spain.png";
 import eng from "../../assets/united-states-of-america.png";
-import langContext from "../../context/langContext";
+import LangContext from "../../context/LangContext";
 import { useContext } from "react";
 
 const LanguageButtons = () => {
 	const { handleLanguageToEnglish, handleLanguageToSpanish } =
-		useContext(langContext);
+		useContext(LangContext);
 
 	return (
 		<div

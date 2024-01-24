@@ -1,11 +1,11 @@
 import React from "react";
 import { useContext } from "react";
-import langContext from "../../../context/langContext";
+import LangContext from "../../../context/LangContext";
 import MyButton from "../Button/MyButton";
 import "./HireResumeButtons.css";
 
 const HireResumeButtons = () => {
-	const { texts } = useContext(langContext);
+	const { texts } = useContext(LangContext);
 
 	return (
 		<div className="hire-resume-buttons">

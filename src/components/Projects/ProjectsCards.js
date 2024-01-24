@@ -13,12 +13,8 @@ import MyButton from "../utilities/Button/MyButton";
 import { BiWorld } from "react-icons/bi";
 import { FaYoutube } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-import langContext from "../../context/langContext";
-import { useContext } from "react";
 
 const ProjectsCards = () => {
-	const { texts } = useContext(langContext);
-
 	const projectsData = [
 		{
 			id: "0",

@@ -3,10 +3,10 @@ import "./Projects.css";
 import Subtitle from "../utilities/Subtitle/Subtitle";
 import ProjectsCards from "./ProjectsCards";
 import { useContext } from "react";
-import langContext from "../../context/langContext";
+import LangContext from "../../context/LangContext";
 
 const Proyects = () => {
-	const { texts } = useContext(langContext);
+	const { texts } = useContext(LangContext);
 
 	return (
 		<div

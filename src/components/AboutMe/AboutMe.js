@@ -3,10 +3,10 @@ import "./AboutMe.css";
 import Subtitle from "../utilities/Subtitle/Subtitle";
 import HireResumeButtons from "../utilities/HireResumeButtons/HireResumeButtons";
 import { useContext } from "react";
-import langContext from "../../context/langContext";
+import LangContext from "../../context/LangContext";
 
 const AboutMe = () => {
-	const { texts } = useContext(langContext);
+	const { texts } = useContext(LangContext);
 
 	return (
 		<div

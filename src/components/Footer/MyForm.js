@@ -4,7 +4,7 @@ import "./MyForm.css";
 import { useForm } from "../hooks/useForm";
 import Loader from "./Loader";
 import Message from "./Message";
-import langContext from "../../context/langContext";
+import LangContext from "../../context/LangContext";
 import { useContext } from "react";
 
 const initialForm = {
@@ -14,7 +14,7 @@ const initialForm = {
 };
 
 const MyForm = () => {
-	const { texts } = useContext(langContext);
+	const { texts } = useContext(LangContext);
 
 	const validationsForm = (form) => {
 		let errors = {};

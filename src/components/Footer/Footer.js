@@ -6,10 +6,10 @@ import { FaWhatsapp } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
 import Subtitle from "../utilities/Subtitle/Subtitle";
 import { useContext } from "react";
-import langContext from "../../context/langContext";
+import LangContext from "../../context/LangContext";
 
 const Footer = () => {
-	const { texts } = useContext(langContext);
+	const { texts } = useContext(LangContext);
 
 	return (
 		<div

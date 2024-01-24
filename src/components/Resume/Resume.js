@@ -3,10 +3,10 @@ import Subtitle from "../utilities/Subtitle/Subtitle";
 import ItemResume from "./ItemResume";
 import "./Resume.css";
 import { useContext } from "react";
-import langContext from "../../context/langContext";
+import LangContext from "../../context/LangContext";
 
 const Resume = () => {
-	const { texts } = useContext(langContext);
+	const { texts } = useContext(LangContext);
 
 	const [items, setItem] = useState(texts.resumeItemsContent);
 

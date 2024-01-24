@@ -1,10 +1,10 @@
 import React from "react";
 import { useContext } from "react";
-import langContext from "../../context/langContext";
+import LangContext from "../../context/LangContext";
 import "./NavLinks.css";
 
 const NavLinks = (props) => {
-	const { texts } = useContext(langContext);
+	const { texts } = useContext(LangContext);
 
 	return (
 		<ul className="nav-links">
