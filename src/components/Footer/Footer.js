@@ -7,6 +7,8 @@ import { AiFillMail } from "react-icons/ai";
 import Subtitle from "../utilities/Subtitle/Subtitle";
 import { useContext } from "react";
 import LangContext from "../../context/LangContext";
+// import MyButton from "../utilities/Button/MyButton";
+import WhatsappButton from "../WhatsappButton.js/WhatsappButton";
 
 const Footer = () => {
 	const { texts } = useContext(LangContext);
@@ -30,17 +32,18 @@ const Footer = () => {
 						>
 							<p>{texts.footerContent}</p>
 						</div>
-						<div className="whatsapp-email-container">
-							<a href="https://wa.me/5491149144055">
+						<div
+							className="whatsapp-email-container"
+							data-aos="zoom-in"
+						>
+							<div className="whatsapp-email">
 								{" "}
-								<div
-									className="whatsapp-email"
-									data-aos="zoom-in"
-								>
-									<FaWhatsapp className="contact-logo" />
-									<p>+54 9 11 4914-4055</p>
-								</div>{" "}
-							</a>
+								<WhatsappButton />
+							</div>{" "}
+							<div className="whatsapp-email">
+								<FaWhatsapp className="contact-logo" />
+								<p>+54 9 11 4914-4055</p>
+							</div>{" "}
 							<div
 								className="whatsapp-email"
 								data-aos="zoom-in"
@@ -50,12 +53,12 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div className="footer-social">
+					<div
+						className="footer-social"
+						data-aos="zoom-in"
+					>
 						<SocialNetworks />
-						<div
-							className="footer-photo"
-							data-aos="zoom-in"
-						></div>
+						<div className="footer-photo"></div>
 					</div>
 				</div>
 			</div>

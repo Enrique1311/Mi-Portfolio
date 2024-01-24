@@ -6,7 +6,7 @@ const UpButton = () => {
 	return (
 		<a
 			href="/#home"
-			className="back-arrow"
+			className="up-arrow"
 		>
 			<IoIosArrowUp />
 		</a>

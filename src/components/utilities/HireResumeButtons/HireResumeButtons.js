@@ -3,6 +3,7 @@ import { useContext } from "react";
 import LangContext from "../../../context/LangContext";
 import MyButton from "../Button/MyButton";
 import "./HireResumeButtons.css";
+import WhatsappButton from "../../WhatsappButton.js/WhatsappButton";
 
 const HireResumeButtons = () => {
 	const { texts } = useContext(LangContext);
@@ -10,7 +11,7 @@ const HireResumeButtons = () => {
 	return (
 		<div className="hire-resume-buttons">
 			<a href="/#contact-me">
-				<MyButton>{texts.contactButton}</MyButton>
+				<WhatsappButton />
 			</a>
 			<a
 				href={texts.cvPdf}

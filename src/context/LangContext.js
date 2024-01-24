@@ -20,6 +20,8 @@ const languages = {
 		contactButton: "Contáctame",
 		cvButton: "Obtener CV",
 		cvPdf: "spanish_cv_enrique_spinelli.pdf",
+		//WhatsappButton
+		send: "Enviar WhatsApp",
 		//about-me
 		aboutMeTitle: "Sobre mí",
 		aboutMeSubtitle: "¿Por qué elegirme?",
@@ -110,6 +112,8 @@ const languages = {
 		contactButton: "Contact me",
 		cvButton: "Download CV",
 		cvPdf: "english_cv_enrique_spinelli.pdf",
+		//WhatsappButton
+		send: "Send WhatsApp",
 		//about-me
 		aboutMeTitle: "About me",
 		aboutMeSubtitle: "Why chosse me?",
