@@ -4,10 +4,17 @@
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
+- 👨‍💻 URL project: [https://enrique-spinelli-port.vercel.app](https://enrique-spinelli-port.vercel.app)
+
+- 📫 How to reach me **enriquespinelli.coder@gmail.com**
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/enrique-javier-spinelli-coder) 
 
 <h2>Welcome to my personal portfolio</h2>
-<p>This is a dynamic portfolio showcase built with ReactJs and CSS. This project reflects my dedication to creating seamless and visually stunning web applications.</p>
+<p>This is a dynamic and "multilanguage" portfolio showcase built with ReactJs and CSS. This project reflects my dedication to creating seamless and visually stunning web applications.</p>
+
+<h4>Languages:</h4>
+<p>You can change the language of all the page with just one button: English or Spanish.</p>
 
 <h2>Key Features:</h2>
 <h4>Responsive Design:</h4>
@@ -19,3 +26,5 @@
 <h4>Animated Transitions:</h4>
 <p>Elevate the user experience with subtle yet impactful animated transitions. CSS animations have been employed to bring a touch of dynamism to the portfolio, making it engaging and visually appealing.
 </p>
+
+
