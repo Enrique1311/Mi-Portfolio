@@ -23,7 +23,7 @@ const ProjectsCards = () => {
 			description: "ReactJS & Css.",
 			gitHubLink: "https://github.com/Enrique1311/Mi-Portfolio.git",
 			buttonIcon: <BiWorld />,
-			url: "https://enrique-spinelli-port.vercel.app/",
+			url: "https://enrique-spinelli-port.vercel.app",
 		},
 		{
 			id: "1",
@@ -39,7 +39,7 @@ const ProjectsCards = () => {
 			title: "Movie App",
 			img: img3,
 			description: "API, ReactJs & CSS",
-			gitHubLink: "https://github.com/Enrique1311/Calculadora-react.git",
+			gitHubLink: "https://github.com/Enrique1311/Movie-App-React.git",
 			buttonIcon: <BiWorld />,
 			url: "https://movie-searcher-react.netlify.app",
 		},
