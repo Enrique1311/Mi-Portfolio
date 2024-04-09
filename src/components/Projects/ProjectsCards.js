@@ -129,7 +129,7 @@ const ProjectsCards = () => {
 											href={data.url}
 											className="card-button"
 										>
-											<MyButton>{data.buttonIcon} </MyButton>
+											<MyButton>{data.buttonIcon}</MyButton>
 										</a>
 									</div>
 								</div>
