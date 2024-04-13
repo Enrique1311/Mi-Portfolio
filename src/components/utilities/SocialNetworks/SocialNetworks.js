@@ -13,7 +13,7 @@ const SocialNetworks = () => {
 				</a>
 			</div>
 			<div>
-				<a href="https://linkedin.com/in/enrique-javier-spinelli-dev">
+				<a href="https://linkedin.com/in/spinelli-enrique-javier-dev">
 					<i className="linkedin">
 						<FaLinkedin className="icons" />
 					</i>
