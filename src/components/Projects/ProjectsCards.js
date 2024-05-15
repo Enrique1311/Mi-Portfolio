@@ -8,6 +8,7 @@ import img6 from "../../assets/beer.png";
 import img7 from "../../assets/responsive.png";
 import img8 from "../../assets/food.png";
 import img9 from "../../assets/money.png";
+import img10 from "../../assets/gym.png";
 import MyButton from "../utilities/Button/MyButton";
 import { BiWorld } from "react-icons/bi";
 import { FaYoutube } from "react-icons/fa";
@@ -87,6 +88,15 @@ const ProjectsCards = () => {
 			gitHubLink: "https://github.com/Enrique1311/bank-app.git",
 			buttonIcon: <BiWorld />,
 			url: "https://bank-app-clone.vercel.app",
+		},
+		{
+			id: "8",
+			title: "Gym App",
+			img: img10,
+			description: "Html, CSS & JavaScript",
+			gitHubLink: "https://github.com/Enrique1311/Gym-Website.git",
+			buttonIcon: <BiWorld />,
+			url: "https://gym-website-ebon.vercel.app",
 		},
 	];
 
