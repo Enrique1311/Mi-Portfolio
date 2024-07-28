@@ -14,10 +14,7 @@ const Proyects = () => {
 			id="projects"
 		>
 			<Subtitle>{texts.projectsTitle}</Subtitle>
-			<div
-				className="projects"
-				data-aos="zoom-in"
-			>
+			<div className="projects">
 				<ProjectsCards />
 			</div>
 		</div>

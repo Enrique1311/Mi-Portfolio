@@ -53,10 +53,7 @@ const MyForm = () => {
 	} = useForm(initialForm, validationsForm);
 
 	return (
-		<div
-			className="form-container"
-			data-aos="zoom-in"
-		>
+		<div className="form-container">
 			<form
 				className="form"
 				onSubmit={handleSubmit}

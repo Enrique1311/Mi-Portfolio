@@ -19,7 +19,7 @@ const languages = {
 		//hireResumeButtons
 		contactButton: "Contáctame",
 		cvButton: "Obtener CV",
-		cvPdf: "spanish_cv_enrique_spinelli.pdf",
+		cvPdf: "CV-Enrique-Spinelli-Spanish.pdf",
 		//WhatsappButton
 		send: "Enviar WhatsApp",
 		//about-me
@@ -111,7 +111,7 @@ const languages = {
 		//hireResumeButtons
 		contactButton: "Contact me",
 		cvButton: "Download CV",
-		cvPdf: "english_cv_enrique_spinelli.pdf",
+		cvPdf: "CV-Enrique-Spinelli-English.pdf",
 		//WhatsappButton
 		send: "Send WhatsApp",
 		//about-me

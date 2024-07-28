@@ -13,7 +13,7 @@
 	cursor: pointer;
 }
 .my-button:hover {
-	transition: 0.1s;
+	transition: 0.5s;
 	transform: scale(1.1);
 }
 .my-button:active {

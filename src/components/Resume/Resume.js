@@ -36,10 +36,7 @@ const Resume = () => {
 			id="resume"
 		>
 			<Subtitle>{texts.resumeTitle}</Subtitle>
-			<div
-				className="resume"
-				data-aos="zoom-in"
-			>
+			<div className="resume">
 				{items.map((item, index) => (
 					<ItemResume
 						key={index}

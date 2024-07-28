@@ -113,10 +113,7 @@ const ProjectsCards = () => {
 							href={data.url}
 							className="card-href"
 						>
-							<div
-								className="card"
-								data-aos="zoom-in"
-							>
+							<div className="card">
 								<img
 									src={data.img}
 									alt="image"
