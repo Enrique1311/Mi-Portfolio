@@ -10,6 +10,7 @@ import img8 from "../../assets/food.png";
 import img9 from "../../assets/money.png";
 import img10 from "../../assets/gym.png";
 import img11 from "../../assets/pizza_order.png";
+import img12 from "../../assets/coffee-bar.png";
 import MyButton from "../utilities/Button/MyButton";
 import { BiWorld } from "react-icons/bi";
 import { FaYoutube } from "react-icons/fa";
@@ -101,12 +102,21 @@ const ProjectsCards = () => {
 		},
 		{
 			id: "9",
-			title: "Multipage Pizza Order",
+			title: "Pizza Order",
 			img: img11,
 			description: "Html, CSS & Javascript",
 			gitHubLink: "https://github.com/Enrique1311/Multipage-Pizza-App-Js.git",
 			buttonIcon: <BiWorld />,
 			url: "https://multipage-pizza-app-js.vercel.app",
+		},
+		{
+			id: "10",
+			title: "Coffee Bar",
+			img: img12,
+			description: "NextJs & Tailwind CSS",
+			gitHubLink: "https://github.com/Enrique1311/coffee_bar_nextjs.git",
+			buttonIcon: <BiWorld />,
+			url: "https://coffee-bar-nextjs.vercel.app",
 		},
 	];
 
