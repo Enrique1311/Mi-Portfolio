@@ -19,7 +19,7 @@
 	border-radius: 10px;
 	box-shadow: 0 0 10px 0 var(--dark-grey);
 	cursor: pointer;
-	transition: all 0.5s linear;
+	transition: all 0.2s linear;
 }
 .card:hover {
 	box-shadow: 0 0 30px 0 rgb(0, 0, 0);

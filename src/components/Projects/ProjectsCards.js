@@ -9,6 +9,7 @@ import img7 from "../../assets/responsive.png";
 import img8 from "../../assets/food.png";
 import img9 from "../../assets/money.png";
 import img10 from "../../assets/gym.png";
+import img11 from "../../assets/pizza_order.png";
 import MyButton from "../utilities/Button/MyButton";
 import { BiWorld } from "react-icons/bi";
 import { FaYoutube } from "react-icons/fa";
@@ -97,6 +98,15 @@ const ProjectsCards = () => {
 			gitHubLink: "https://github.com/Enrique1311/Gym-Website.git",
 			buttonIcon: <BiWorld />,
 			url: "https://gym-website-ebon.vercel.app",
+		},
+		{
+			id: "9",
+			title: "Multipage Pizza Order",
+			img: img11,
+			description: "Html, CSS & Javascript",
+			gitHubLink: "https://github.com/Enrique1311/Multipage-Pizza-App-Js.git",
+			buttonIcon: <BiWorld />,
+			url: "https://multipage-pizza-app-js.vercel.app",
 		},
 	];
 

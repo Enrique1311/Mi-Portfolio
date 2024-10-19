@@ -101,24 +101,24 @@ const languages = {
 	english: {
 		//navlinks
 		home: "Home",
-		about: "About me",
+		about: "About Me",
 		resume: "Resume",
 		projects: "Projects",
 		contacts: "Contacts",
 		//profile
 		hello: "Hello! I am ",
-		subtitle: "Full Stack Web and Mobile Application Developer",
+		subtitle: "Full Stack Developer of web and mobile applications.",
 		//hireResumeButtons
-		contactButton: "Contact me",
-		cvButton: "Download CV",
+		contactButton: "Contact Me",
+		cvButton: "Get CV",
 		cvPdf: "CV-Enrique-Spinelli-English.pdf",
 		//WhatsappButton
 		send: "Send WhatsApp",
 		//about-me
-		aboutMeTitle: "About me",
-		aboutMeSubtitle: "Why chosse me?",
+		aboutMeTitle: "About Me",
+		aboutMeSubtitle: "Why Choose Me?",
 		aboutMeContent:
-			"I love programming. I don't give up on challenges. I create agile, intuitive, modern, visually appealing and all-device websites and mobile apps for a pleasant experience. I want to continue learning from my colleagues and contribute my knowledge.",
+			"I love programming. I don't give up on challenges. I create agile, intuitive, modern, visually appealing, and adaptable websites and mobile applications for all devices to ensure users have a pleasant experience. I want to keep learning from my colleagues and contribute my knowledge.",
 		//resume
 		resumeTitle: "Resume",
 		resumeItemsContent: [
@@ -126,42 +126,42 @@ const languages = {
 				title: "Education",
 				icon: <FaUserGraduate />,
 				content:
-					"Currently: Studying Python and expanding my English in Platzi Academy.",
-				content2: "2022: Sass, MongoDB, Express and SQLite as self-taught.",
-				content3: "2022: Mobile Application Developer at Coderhouse.",
-				content4: "2021: Full Stack WEB Developer at Numen Academy.",
+					"Currently: Studying Python and improving my English at Platzi Academy.",
+				content2: "2022: Sass, MongoDB, Express, and SQLite as a self-taught.",
+				content3: "2022: Mobile Application Developer at Coderhouse",
+				content4: "2021: Full Stack Web Developer at Numen Academy.",
 				open: false,
 			},
 			{
 				title: "History",
 				icon: <FaHistory />,
-				content: "February 2021 to present: Freelance web developer",
-				content2: "2019 to 2021: Uber. Professional driver.",
-				content3: "2014 to 2019: Sides S.A.. Operator.",
+				content: "February 2021 to present: freelance web developer",
+				content2: "2019 to 2021: Uber. Professional driver",
+				content3: "2014 to 2019: Sides S.A.. Operator",
 				content4: "2009 to 2014: SR Viajes. Professional driver.",
 				content5:
-					"1997 to 2009: MOCBA S.A.. I worked as service control, inspector, Traffic Chief and in treasury.",
+					"1997 to 2009: MOCBA S.A.. I worked as a service controller, inspector, Traffic Chief, and in the treasury.",
 				open: false,
 			},
 			{
 				title: "Skills",
 				icon: <MdOutlineComputer />,
 				content:
-					"Web development: Html, Css, Javascript, ReactJs, NextJs, React Native, Git, SQLite, Strapi, MongoDB, Express, NodeJs, Axios, Material UI, Sass, Bootstrap, Tailwind...",
-				content2: "Mobile apps: React Native.",
+					"Web Development: Html, Css, Javascript, ReactJs, NextJs, React Native, Git, SQLite, MongoDB, Strapi, Express, NodeJs, Bootstrap, Axios, Material UI, Sass, Tailwind...",
+				content2: "Mobile Applications: React Native.",
 				content3: "Intermediate English.",
 				content4:
-					"I am proactive, disciplined, persevering, original and I like to solve challenges as efficiently and effectively as possible.",
+					"I am proactive, disciplined, persevering, original, and I like to solve challenges with the highest possible efficiency and effectiveness.",
 				open: false,
 			},
 			{
-				title: "Hobbies",
+				title: "Passions",
 				icon: <FaMusic />,
-				content: "Going to rock concerts.",
-				content2: "Traveling and knowing new places.",
-				content3: "Making web sites is another activity that I really enjoy.",
+				content: "I love going to rock concerts.",
+				content2: "Traveling and discovering new places.",
+				content3: "Creating web pages is another activity I enjoy a lot.",
 				content4:
-					"¡Being with my wife and my two children is what fills my soul the most!",
+					"Being with my wife and two children is what fills my soul the most!",
 				open: false,
 			},
 		],
@@ -172,20 +172,109 @@ const languages = {
 		//footer
 		footerTitle: "Contacts",
 		footerContent:
-			"If you like my work and want to hire me or ask me any questions, here are some ways of communication. Or you can only leave your query in this form. Thank you!",
+			"If you like my work and want to hire me or ask me any questions, here are some ways to get in touch. Or you can just leave your query in this form. Thank you!",
 		formName: "Name",
 		formEmail: "Email",
 		formMessage: "Message",
-		formButton: "Submit",
+		formButton: "Send",
 		emailMessage: "The data has been sent!",
-		nameErrorMessage: "The Name is required!",
-		nameErrorMessage2: "The Name field only accepts letters and whitespace!",
-		emailErrorMessage: "The Email is required!",
-		emailErrorMessage2: "The Email field is incorrect!",
-		messageErrorMessage: "The field Message is required!",
+		nameErrorMessage: "Name is required!",
+		nameErrorMessage2: "The Name field only accepts letters and spaces!",
+		emailErrorMessage: "Email is required!",
+		emailErrorMessage2: "The Email is incorrect!",
+		messageErrorMessage: "The Message field is required!",
 		messageErrorMessage2: "The Message field accepts up to 250 characters!",
 		copyright: "All rights reserved",
 	},
+
+	// english: {
+	// 	//navlinks
+	// 	home: "Home",
+	// 	about: "About me",
+	// 	resume: "Resume",
+	// 	projects: "Projects",
+	// 	contacts: "Contacts",
+	// 	//profile
+	// 	hello: "Hello! I am ",
+	// 	subtitle: "Full Stack Web and Mobile Application Developer",
+	// 	//hireResumeButtons
+	// 	contactButton: "Contact me",
+	// 	cvButton: "Download CV",
+	// 	cvPdf: "CV-Enrique-Spinelli-English.pdf",
+	// 	//WhatsappButton
+	// 	send: "Send WhatsApp",
+	// 	//about-me
+	// 	aboutMeTitle: "About me",
+	// 	aboutMeSubtitle: "Why chosse me?",
+	// 	aboutMeContent:
+	// 		"I love programming. I don't give up on challenges. I create agile, intuitive, modern, visually appealing and all-device websites and mobile apps for a pleasant experience. I want to continue learning from my colleagues and contribute my knowledge.",
+	// 	//resume
+	// 	resumeTitle: "Resume",
+	// 	resumeItemsContent: [
+	// 		{
+	// 			title: "Education",
+	// 			icon: <FaUserGraduate />,
+	// 			content:
+	// 				"Currently: Studying Python and expanding my English in Platzi Academy.",
+	// 			content2: "2022: Sass, MongoDB, Express and SQLite as self-taught.",
+	// 			content3: "2022: Mobile Application Developer at Coderhouse.",
+	// 			content4: "2021: Full Stack WEB Developer at Numen Academy.",
+	// 			open: false,
+	// 		},
+	// 		{
+	// 			title: "History",
+	// 			icon: <FaHistory />,
+	// 			content: "February 2021 to present: Freelance web developer",
+	// 			content2: "2019 to 2021: Uber. Professional driver.",
+	// 			content3: "2014 to 2019: Sides S.A.. Operator.",
+	// 			content4: "2009 to 2014: SR Viajes. Professional driver.",
+	// 			content5:
+	// 				"1997 to 2009: MOCBA S.A.. I worked as service control, inspector, Traffic Chief and in treasury.",
+	// 			open: false,
+	// 		},
+	// 		{
+	// 			title: "Skills",
+	// 			icon: <MdOutlineComputer />,
+	// 			content:
+	// 				"Web development: Html, Css, Javascript, ReactJs, NextJs, React Native, Git, SQLite, Strapi, MongoDB, Express, NodeJs, Axios, Material UI, Sass, Bootstrap, Tailwind...",
+	// 			content2: "Mobile apps: React Native.",
+	// 			content3: "Intermediate English.",
+	// 			content4:
+	// 				"I am proactive, disciplined, persevering, original and I like to solve challenges as efficiently and effectively as possible.",
+	// 			open: false,
+	// 		},
+	// 		{
+	// 			title: "Hobbies",
+	// 			icon: <FaMusic />,
+	// 			content: "Going to rock concerts.",
+	// 			content2: "Traveling and knowing new places.",
+	// 			content3: "Making web sites is another activity that I really enjoy.",
+	// 			content4:
+	// 				"¡Being with my wife and my two children is what fills my soul the most!",
+	// 			open: false,
+	// 		},
+	// 	],
+	// 	//projects
+	// 	projectsTitle: "Projects",
+	// 	gitHubButton: "Code",
+	// 	showButton: "Show",
+	// 	//footer
+	// 	footerTitle: "Contacts",
+	// 	footerContent:
+	// 		"If you like my work and want to hire me or ask me any questions, here are some ways of communication. Or you can only leave your query in this form. Thank you!",
+	// 	formName: "Name",
+	// 	formEmail: "Email",
+	// 	formMessage: "Message",
+	// 	formButton: "Submit",
+	// 	emailMessage: "The data has been sent!",
+	// 	nameErrorMessage: "The Name is required!",
+	// 	nameErrorMessage2: "The Name field only accepts letters and whitespace!",
+	// 	emailErrorMessage: "The Email is required!",
+	// 	emailErrorMessage2: "The Email field is incorrect!",
+	// 	messageErrorMessage: "The field Message is required!",
+	// 	messageErrorMessage2: "The Message field accepts up to 250 characters!",
+	// 	copyright: "All rights reserved",
+	// },
 };
 
 const LangProvider = ({ children }) => {

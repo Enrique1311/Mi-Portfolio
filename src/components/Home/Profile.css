@@ -9,6 +9,7 @@
 	color: var(--light);
 	padding-top: 75px;
 	width: 100%;
+	min-height: 100vh;
 }
 .profile-picture-container {
 	display: flex;
